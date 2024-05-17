@@ -21,7 +21,7 @@ export default {
     },
     computed: {
         iconUrl() {
-            return `/public/icons/${this.name}.svg`;
+            return `icons/${this.name}.svg`;
         },
         tooltipText() {
             const tooltips = {
@@ -58,7 +58,7 @@ export default {
         }
     }, methods: {
         loadFallback(event) {
-            event.target.src = `/public/icons/${this.name}.jpeg`;
+            event.target.src = `icons/${this.name}.jpeg`;
         }
     }
 }
