@@ -24,16 +24,23 @@
     <div class="dates-container">
       <span class="dates">{{ formattedFrom }} - {{ formattedTo }} ({{ duration }})</span>
     </div>
+    <div class="tree-container" v-if="tree && tree.length">
+      <ul class="tree">
+        <tree-item v-for="item in tree" :key="item.id" :item="item"></tree-item>
+      </ul>
+    </div>
   </a>
 </template>
 
 <script>
 import Icon from './Icon.vue';
+import TreeItem from './TreeItem.vue';
 
 export default {
   name: 'Experience',
   components: {
-    Icon
+    Icon,
+    TreeItem
   },
   props: {
     title: {
@@ -71,6 +78,11 @@ export default {
       type: String,
       required: false,
       default: ''
+    },
+    tree: {
+      type: Array,
+      required: false,
+      default: () => []
     }
   },
   data() {
@@ -229,12 +241,23 @@ export default {
   font-size: 12px;
 }
 
+.tree-container {
+  margin-left: 20px;
+  width: 100%;
+}
+
+.tree {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
 @media (max-width: 600px) {
   .cv-experience {
     flex-direction: column;
     background-color: #f6f6f7;
     padding: 10px;
     border-radius: 20px;
+    align-content: center;
   }
 
   .cv-title-place-block {
