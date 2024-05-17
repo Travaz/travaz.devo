@@ -1,6 +1,11 @@
 <template>
     <div class="icon-container">
-        <img :src="iconUrl" :alt="`Icon of ${name}`" class="icon" />
+        <img 
+            :src="iconUrl" 
+            :alt="`Icon of ${name}`" 
+            class="icon" 
+            @error="loadFallback" 
+        />
         <span class="tooltip">{{ tooltipText }}</span>
     </div>
 </template>
@@ -43,9 +48,17 @@ export default {
                 d3: 'D3.js',
                 mui: 'Material-UI',
                 graphql: 'GraphQL',
-                cytoscape: 'Cytoscape.js'
+                cytoscape: 'Cytoscape.js',
+                c: 'C',
+                rpi: 'Raspberry Pi',
+                proxmox: 'Proxmox VE',
+                ubuntu: 'Ubuntu',
             };
             return tooltips[this.name] || this.name;
+        }
+    }, methods: {
+        loadFallback(event) {
+            event.target.src = `/public/icons/${this.name}.jpeg`;
         }
     }
 }
