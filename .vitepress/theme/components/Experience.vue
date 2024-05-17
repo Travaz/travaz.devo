@@ -11,7 +11,7 @@
           @mouseleave="hideTooltip"
         >
           {{ company }}
-          <div class="company-tooltip" v-if="tooltipVisible">
+          <div class="company-tooltip" v-if="tooltipVisible && companyLogo">
             <img :src="companyLogo" :alt="`Logo of ${company}`" class="large-company-logo" />
             <div class="tooltip-text">Click to visit the website</div>
           </div>
