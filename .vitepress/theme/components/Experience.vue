@@ -4,12 +4,9 @@
       <b class="job-title">{{ title }}</b>
       <span v-if="company">
         <span class="company-at-separator">@</span>
-        <a
-          :href="companyUrl"
+        <a :href="companyUrl"
           :class="{ 'company': true, 'company-link': companyUrl !== '#', 'company-no-link': companyUrl === '#' }"
-          @mouseover="showTooltip"
-          @mouseleave="hideTooltip"
-        >
+          @mouseover="showTooltip" @mouseleave="hideTooltip">
           {{ company }}
           <div class="company-tooltip" v-if="tooltipVisible && companyLogo">
             <img :src="companyLogo" :alt="`Logo of ${company}`" class="large-company-logo" />
@@ -152,6 +149,7 @@ export default {
   flex-wrap: wrap;
   padding: 5px 10px;
   text-decoration: none;
+  color: var(--vp-c-text-1);
 }
 
 .cv-title-place-block {
@@ -176,6 +174,7 @@ export default {
 .company-link {
   color: #ff5722;
 }
+
 .company-link:hover {
   color: #ff5722;
   font-weight: 900;
@@ -184,6 +183,11 @@ export default {
 .company-no-link {
   text-decoration: none;
   cursor: default;
+  color: var(--vp-c-text-2);
+}
+
+.company-no-link:hover {
+  color: var(--vp-c-text-2);
 }
 
 .dates-container {
@@ -199,7 +203,7 @@ export default {
 }
 
 .dates {
-  color: #292c32;
+  color: var(--vp-c-text-1);
   font-size: 14px;
   text-decoration: none;
 }
@@ -208,7 +212,15 @@ export default {
   background-color: #f6f6f7;
   border-radius: 20px;
   cursor: pointer;
-  color: #292c32;
+  color: var(--homepage-contrast-color);
+}
+
+.cv-experience:hover .dates {
+  color: var(--homepage-contrast-color);
+}
+
+.cv-experience:hover .company-no-link {
+  color: var(--homepage-contrast-color);
 }
 
 .company-tooltip {
@@ -219,8 +231,8 @@ export default {
   bottom: 150%;
   left: 50%;
   transform: translateX(-50%);
-  background-color: black;
-  color: #fff;
+  background-color: var(--tooltip-bg);
+  color:  var(--tooltip-text);
   text-align: center;
   border-radius: 5px;
   padding: 10px;

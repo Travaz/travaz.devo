@@ -62,7 +62,7 @@ export default {
 }
 
 .date {
-    color: #666;
+    color: var(--vp-c-text-2);
     font-size: 0.875rem;
 }
 
@@ -71,6 +71,7 @@ export default {
     height: 200px;
     margin: auto;
     border-radius: 10px;
+    background-color: var(--proect-card-icon-bg);
 }
 
 .project-card-title {
@@ -81,7 +82,7 @@ export default {
 }
 
 .description {
-    color: #333;
+    color: var(--vp-c-text-1);
     font-size: 1rem;
     margin: 0.5rem 0;
 }
