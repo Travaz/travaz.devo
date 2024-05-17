@@ -31,6 +31,14 @@ export default {
                 docker: 'Docker',
                 php: 'PHP',
                 mariadb: 'MariaDB',
+                apache: 'Apache',
+                nginx: 'Nginx',
+                elasticsearch: 'Elasticsearch',
+                redis: 'Redis',
+                spring: 'Spring Framework',
+                mysql: 'MySQL',
+                supabase: 'Supabase',
+                centos: 'CentOS',
             };
             return tooltips[this.name] || this.name;
         }
