@@ -183,7 +183,7 @@ export default {
     flex-direction: column;
   }
 
-  .icons {
+  .icons-container {
     margin-left: 0;
     margin-top: 0.5rem;
   }
