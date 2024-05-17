@@ -55,7 +55,10 @@
 
 .centered {
   text-align: center;
-  margin-top: 15vh;
+}
+
+.home-spacer {
+  height: 7vh;
 }
 
 .project-container {

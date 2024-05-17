@@ -20,10 +20,10 @@ hero:
 
 features:
   - title: 📖 A Bit About Me
-    details: Hey! I am Gianlorenzo, a 25 y/o passionate MSc graduate in computer science. I am currently working as a Software Engineer at Renuo AG in Zürich 🇨🇭 <br><br> Besides my work, I love working on projects to broaden my vision and serve as the CTO of a startup, driving innovation and technology 🚀🔥
-  - title: 🎯 Skills That Define Me
+    details: Hey there! My name is Gianlorenzo, but you'll end up calling me Gianlo. I'm a <span id="agePlaceholder">XX</span>-year-old MSc graduate. I am currently working as a Software Engineer at Renuo AG in Zürich 🇨🇭 <br><br> Besides my work, I love working on projects to broaden my vision and serve as the CTO of a startup, driving innovation and technology 🚀🔥
+  - title: 🎯 My Skills
     details: Proficient in Full Stack Development, DevOps, and Cloud Technologies, with foundational expertise in Artificial Intelligence and Data Visualization 🤖📊 <br><br> My entrepreneurial skills focus on cost-optimizing 💰 every process and pioneering new solutions. 🚀
-  - title: 🍕 Fun Facts About Me
+  - title: 🍕 Fun Facts
     details: When I'm not coding, I enjoy team-based games and playing chess ♟️. I'm into finance 📈 and love exploring market trends. Food is a big passion, and of course, pizza 🍕 is my favorite!  <br><br> Whether it's new tech, games, or culinary delights, I bring enthusiasm 🤩 to everything I do.
 
 ---
@@ -128,13 +128,22 @@ features:
     }
   }
 
+  function setAge() {
+    // Yes, I am a very lazy person, but that is also my virtue
+
+    const BDAY = "10-14-1998";
+    const diff = new Date(new Date() - new Date(BDAY))
+    const age = diff.getUTCFullYear() - 1970;
+    agePlaceholder.textContent = age;
+  }
+
 
 onMounted(() => {
   typeWriter();
+  setAge();
 });
 
 </script>
-
 
 <!--@include: ./parts/experience.md-->
 <!--@include: ./parts/highlighted_projects.md-->

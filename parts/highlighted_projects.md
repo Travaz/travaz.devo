@@ -1,3 +1,4 @@
+<div class="home-spacer" />
 <h3 class="centered"> Highlighted Projects </h3>
 
 <div class="project-container">

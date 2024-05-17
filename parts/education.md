@@ -1,3 +1,4 @@
+<div class="home-spacer" />
 <h3 class="centered"> Education </h3>
 
 <Experience
