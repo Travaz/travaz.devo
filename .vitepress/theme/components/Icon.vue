@@ -39,6 +39,11 @@ export default {
                 mysql: 'MySQL',
                 supabase: 'Supabase',
                 centos: 'CentOS',
+                plotly: 'Plotly',
+                d3: 'D3.js',
+                mui: 'Material-UI',
+                graphql: 'GraphQL',
+                cytoscape: 'Cytoscape.js'
             };
             return tooltips[this.name] || this.name;
         }
