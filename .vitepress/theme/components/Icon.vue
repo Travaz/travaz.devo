@@ -23,6 +23,14 @@ export default {
                 aws: 'Amazon Web Services (AWS)',
                 java: 'Java',
                 k8s: 'Kubernetes',
+                python: 'Python',
+                react: 'React',
+                gcp: 'Google Cloud Platform (GCP)',
+                docker: 'Docker',
+                prestashop: 'PrestaShop',
+                docker: 'Docker',
+                php: 'PHP',
+                mariadb: 'MariaDB',
             };
             return tooltips[this.name] || this.name;
         }
