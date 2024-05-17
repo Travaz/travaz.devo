@@ -97,7 +97,12 @@ export default {
       const years = diff.getUTCFullYear() - 1970;
       const months = diff.getUTCMonth();
 
-      return `${years} ${years > 1 ? 'yrs' : 'yr'} ${months} ${months > 1 ? 'mos' : 'mo'}`;
+      let str = '';
+      if (years > 0) {
+        str += `${years} ${years > 1 ? 'yrs' : 'yr'} `;
+      }
+
+      return str + `${months} ${months > 1 ? 'mos' : 'mo'}`;
     },
     largeCompanyLogoUrl() {
       return `/public/icons/${this.companyLogo}.svg`;
