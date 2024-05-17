@@ -4,9 +4,18 @@
       <b class="job-title">{{ title }}</b>
       <span v-if="company">
         <span class="company-at-separator">@</span>
-        <a :href="companyUrl"
-          :class="{ 'company': true, 'company-link': companyUrl !== '#', 'company-no-link': companyUrl === '#' }">{{
-          company }}</a>
+        <a
+          :href="companyUrl"
+          :class="{ 'company': true, 'company-link': companyUrl !== '#', 'company-no-link': companyUrl === '#' }"
+          @mouseover="showTooltip"
+          @mouseleave="hideTooltip"
+        >
+          {{ company }}
+          <div class="company-tooltip" v-if="tooltipVisible">
+            <img :src="companyLogo" :alt="`Logo of ${company}`" class="large-company-logo" />
+            <div class="tooltip-text">Click to visit the website</div>
+          </div>
+        </a>
       </span>
     </div>
     <div class="icons-container" v-if="hasIcons()">
@@ -41,6 +50,10 @@ export default {
       required: false,
       default: '#'
     },
+    companyLogo: {
+      type: String,
+      required: false
+    },
     from: {
       type: String,
       required: true
@@ -59,6 +72,11 @@ export default {
       required: false,
       default: ''
     }
+  },
+  data() {
+    return {
+      tooltipVisible: false
+    };
   },
   computed: {
     formattedFrom() {
@@ -80,6 +98,9 @@ export default {
       const months = diff.getUTCMonth();
 
       return `${years} ${years > 1 ? 'yrs' : 'yr'} ${months} ${months > 1 ? 'mos' : 'mo'}`;
+    },
+    largeCompanyLogoUrl() {
+      return `/public/icons/${this.companyLogo}.svg`;
     }
   },
   methods: {
@@ -94,9 +115,15 @@ export default {
     },
     hasIcons() {
       return this.icons.length > 0;
+    },
+    showTooltip() {
+      this.tooltipVisible = true;
+    },
+    hideTooltip() {
+      this.tooltipVisible = false;
     }
   }
-}
+};
 </script>
 
 <style scoped>
@@ -126,6 +153,7 @@ export default {
 
 .company {
   margin-left: 0;
+  position: relative;
 }
 
 .company-link {
@@ -166,10 +194,39 @@ export default {
   color: #292c32;
 }
 
+.company-tooltip {
+  visibility: visible;
+  opacity: 1;
+  position: absolute;
+  z-index: 10;
+  bottom: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  white-space: nowrap;
+  transition: opacity 0.3s;
+  align-items: center;
+}
+
+.large-company-logo {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.tooltip-text {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
 @media (max-width: 600px) {
   .cv-experience {
     flex-direction: column;
-
     background-color: #f6f6f7;
     padding: 10px;
     border-radius: 20px;
@@ -190,6 +247,12 @@ export default {
 
   .dates {
     margin-top: 0.5rem;
+  }
+
+  .company-tooltip {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 </style>
