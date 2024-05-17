@@ -132,4 +132,11 @@ features:
 onMounted(() => {
   typeWriter();
 });
+
 </script>
+
+
+
+<!--@include: ./parts/education.md-->
+<!--@include: ./parts/highlighted_projects.md-->
+<!--@include: ./parts/experience.md-->
