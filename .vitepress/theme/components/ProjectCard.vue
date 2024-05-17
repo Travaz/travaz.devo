@@ -1,0 +1,95 @@
+<template>
+    <div class="project-card">
+        <div class="header">
+            <span class="date">{{ date }}</span>
+        </div>
+        <img :src="imageSrc" :alt="title" class="project-card-icon" />
+        <div class="project-card-title">{{ title }}</div>
+        <p class="description">{{ description }}</p>
+        <div class="tags">
+            <Badge v-for="tag in tags" :key="tag">{{ tag }}</Badge>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+    name: 'ProjectCard',
+    props: {
+        date: {
+            type: String,
+            required: true,
+        },
+        imageSrc: {
+            type: String,
+            required: true,
+        },
+        title: {
+            type: String,
+            required: true,
+        },
+        description: {
+            type: String,
+            required: true,
+        },
+        tags: {
+            type: Array,
+            required: true,
+        },
+    },
+}
+</script>
+
+<style>
+.project-card {
+    display: grid;
+    grid-template-rows: 20px 200px 3rem auto 30px;
+    gap: 1rem;
+    background-color: var(--vp-c-bg-soft);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    max-width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.date {
+    color: #666;
+    font-size: 0.875rem;
+}
+
+.project-card-icon {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.project-card-title {
+    font-size: 1.75rem;
+    margin: auto;
+    font-weight: 900;
+    text-align: center;
+}
+
+.description {
+    color: #333;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 600px) {
+    .project-card {
+        max-width: 100%;
+    }
+    
+}
+</style>
