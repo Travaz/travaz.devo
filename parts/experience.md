@@ -1,6 +1,5 @@
 <h3 class="centered"> Experience </h3>
 
-
 <Experience
     title="Software Engineer"
     company="Renuo AG"
