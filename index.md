@@ -136,7 +136,8 @@ onMounted(() => {
 </script>
 
 
-
-<!--@include: ./parts/education.md-->
-<!--@include: ./parts/highlighted_projects.md-->
 <!--@include: ./parts/experience.md-->
+<!--@include: ./parts/highlighted_projects.md-->
+<!--@include: ./parts/education.md-->
+
+
