@@ -234,6 +234,7 @@ export default {
   height: auto;
   border-radius: 10px;
   margin: auto;
+  background-color: white;
 }
 
 .tooltip-text {

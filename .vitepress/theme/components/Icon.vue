@@ -53,6 +53,7 @@ export default {
                 rpi: 'Raspberry Pi',
                 proxmox: 'Proxmox VE',
                 ubuntu: 'Ubuntu',
+                knime: 'KNIME',
             };
             return tooltips[this.name] || this.name;
         }
