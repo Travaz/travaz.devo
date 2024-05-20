@@ -1,5 +1,5 @@
 <div class="home-spacer" />
-<h3 class="centered"> Experience </h3>
+<div class="home-title"> Experience </div>
 
 <div class="experience-container">
 <Experience

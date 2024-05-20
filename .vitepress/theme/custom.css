@@ -64,8 +64,13 @@
   padding: 0.5rem 1.4rem;
 }
 
-.centered {
+.home-title {
   text-align: center;
+  margin: 32px 0 10px 0;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .home-spacer {

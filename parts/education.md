@@ -1,5 +1,6 @@
 <div class="home-spacer" />
-<h3 class="centered"> Education </h3>
+<div class="home-title"> Education </div>
+
 
 <Experience
     title="MSc in Computer Science"
