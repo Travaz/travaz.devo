@@ -1,3 +1,0 @@
-# Renuo AG
-
-AAAA

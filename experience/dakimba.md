@@ -1,0 +1,3 @@
+# Dakimba
+
+I worked for a Start-up that needed a developer to engineer its requirements. They needed a website to act as a travel agency between the customer and the housing structures. When I joined them, I was the sole Software Engineer, so I organized the work that has to be done, and with an agile approach, engineered their application stack. My optimization skills brought me to suggest some new ideas to improve their cutting-edge technologies. I presented them my ideas and I also made a fully functional prototype to demonstrate the feasibility of my approach. The company took the idea into consideration, and after studying my ideas, they were enthusiasts and moreover, they patented them. I’m recognized as one of the inventors of these patent.

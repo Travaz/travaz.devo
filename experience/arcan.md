@@ -1,0 +1,3 @@
+# Arcan
+
+I joined Arcan to support a team of technical researchers in developing a system architecture analysis tool. Noted for my stunning performance during a Software Engineering exam, I contributed by creating a React interface to display component relationships. This successful project was accepted into a Start-up Acceleration program, promising value for the sector. Accepted into a Start-up Acceleration program, poised to deliver significant value to the sector.
