@@ -6,6 +6,7 @@ import Icon from "./components/Icon.vue";
 import ProjectCard from "./components/ProjectCard.vue";
 import TreeItem from "./components/TreeItem.vue";
 import Button from "./components/Button.vue";
+import TimelineCard from "./components/TimelineCard.vue";
 import "vitepress-markdown-timeline/dist/theme/index.css";
 
 export default {
@@ -16,5 +17,6 @@ export default {
     app.component('Icon', Icon)
     app.component('TreeItem', TreeItem)
     app.component('Button', Button)
+    app.component('TimelineCard', TimelineCard)
   }
 } satisfies Theme
