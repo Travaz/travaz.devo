@@ -145,9 +145,9 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 1rem 0;
+  margin: 0.2rem 0;
   flex-wrap: wrap;
-  padding: 5px 10px;
+  padding: 10px;
   text-decoration: none;
   color: var(--vp-c-text-1);
 }
