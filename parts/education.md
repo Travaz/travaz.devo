@@ -9,7 +9,7 @@
     companyLogo="logo/usi.jpg"
     from="09-2021"
     to="07-2022"
-    detailedPage='experiences/usi'
+    detailedPage='education/usi'
     :tree="[
         {
             name:'Final grade: <b>9.9/10</b> 🎓 Summa cum laude '
@@ -31,7 +31,7 @@
     companyLogo="logo/unimib.png"
     from="10-2020"
     to="07-2022"
-    detailedPage='experiences/usi'
+    detailedPage='/education/msc-unimib'
     :tree="[
         {
             name:'Final grade: <b>110L/110</b> 🎓 Summa cum laude '
@@ -52,7 +52,7 @@
     companyLogo="logo/unimib.png"
     from="09-2017"
     to="10-2020"
-    detailedPage='experiences/usi'
+    detailedPage='/education/bsc-unimib'
     :tree="[
         {
             name:'Final grade: <b>110L/110</b> 🎓 Summa cum laude '
@@ -72,6 +72,7 @@
     company="Commercial Technical Institute of Ragusa 🇮🇹"
     from="09-2012"
     to="07-2017"
+    detailedPage='/education/diploma'
     :tree="[
         {
             name:'Final grade: 92/100'
