@@ -6,6 +6,7 @@ import Icon from "./components/Icon.vue";
 import ProjectCard from "./components/ProjectCard.vue";
 import TreeItem from "./components/TreeItem.vue";
 import Button from "./components/Button.vue";
+import "vitepress-markdown-timeline/dist/theme/index.css";
 
 export default {
   extends: DefaultTheme,

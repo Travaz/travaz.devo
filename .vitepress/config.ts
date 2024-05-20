@@ -1,9 +1,16 @@
 import { defineConfig } from 'vitepress'
+import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
   lang: 'en-US',
   title: "Gianlorenzo Occhipinti",
   description: "Gianlorenzo's portfolio",
+  markdown: {
+    config: (md) => {
+      //@ts-ignore
+      md.use(timeline);
+    },
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
