@@ -24,12 +24,15 @@
   /* Code Snippet font */
   --vp-font-family-mono: "Space Mono", Menlo, Monaco, Consolas, "Courier New",
     monospace;
+
+  --vp-home-hero-name-color: #292c32;
 }
 
 .dark {
   --tooltip-bg: #FFF;
   --tooltip-text: #292c32;
   --proect-card-icon-bg: #FFF;
+  --vp-home-hero-name-color: #fff;
 }
 
 /* Custom Stlye */
@@ -80,8 +83,4 @@
   .project-container {
     flex-direction: column;
   }
-}
-
-.clip {
-  -webkit-text-fill-color: var(--vp-c-text-1) !important;
 }

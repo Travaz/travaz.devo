@@ -36,7 +36,7 @@ features:
 }
 
 .text {
-  background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+  background: -webkit-linear-gradient(180deg, #bd34fe 50%, #47caff);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -57,7 +57,7 @@ features:
 .VPImage {
     -webkit-animation: droplet 8s ease-in-out infinite;
     animation: droplet 8s ease-in-out infinite;
-    border: 3px solid #2d2e32;
+    border: 3px solid var(--vp-home-hero-name-color);
 }
 
 @keyframes droplet {
