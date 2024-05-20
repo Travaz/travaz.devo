@@ -1,15 +1,17 @@
 <template>
-    <div class="project-card">
-        <div class="header">
-            <span class="date">{{ date }}</span>
-        </div>
-        <img :src="imageSrc" :alt="title" class="project-card-icon" />
-        <div class="project-card-title">{{ title }}</div>
-        <p class="description">{{ description }}</p>
-        <div class="tags">
-            <Badge v-for="tag in tags" :key="tag">{{ tag }}</Badge>
-        </div>
-    </div>
+    <a :href="detailedPage" class="project-card">
+        <!-- <div class="project-card"> -->
+            <div class="header">
+                <span class="date">{{ date }}</span>
+            </div>
+            <img :src="imageSrc" :alt="title" class="project-card-icon" />
+            <div class="project-card-title">{{ title }}</div>
+            <p class="description">{{ description }}</p>
+            <div class="tags">
+                <Badge v-for="tag in tags" :key="tag">{{ tag }}</Badge>
+            </div>
+        <!-- </div> -->
+    </a>
 </template>
 
 <script>
@@ -36,6 +38,11 @@ export default {
             type: Array,
             required: true,
         },
+        detailedPage: {
+            type: String,
+            required: false,
+            default: '',
+        },
     },
 }
 </script>
@@ -52,6 +59,14 @@ export default {
     max-width: 30%;
     box-sizing: border-box;
     text-align: center;
+    cursor: pointer;
+    border: 5px solid var(--vp-c-bg-soft);
+    text-decoration: none !important;
+    color: var(--vp-c-text-1) !important;
+}
+
+.project-card:hover {
+    border: 5px solid var(--vp-c-text-1);
 }
 
 .header {
@@ -91,6 +106,6 @@ export default {
     .project-card {
         max-width: 100%;
     }
-    
+
 }
 </style>
