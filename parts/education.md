@@ -39,7 +39,7 @@
             name:'Average exam grade: 30/30'
         },
         {
-            name: 'Doubledegree scholarshop with USI'
+            name: 'Doubledegree scholarship with USI'
         }
     ]"
     />
