@@ -34,11 +34,19 @@ export default {
   background-color: var(--vp-button-brand-bg);
   color: var(--vp-button-brand-text);
   border-color: var(--vp-button-brand-border);
+  
+  margin: 25px auto 0 auto ;
 }
 
 .btn:hover {
   background-color: var(--vp-button-brand-hover-bg);
   color: var(--vp-button-brand-hover-text);
   border-color: var(--vp-button-brand-hover-border);
+}
+
+@media (max-width: 600px) {
+  .btn {
+    margin: 0px;
+  }
 }
 </style>
