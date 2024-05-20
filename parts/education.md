@@ -1,7 +1,7 @@
 <div class="home-spacer" />
 <div class="home-title"> Education </div>
 
-
+<div class="experience-container">
 <Experience
     title="MSc in Computer Science"
     company="Università della Svizzera Italiana (USI) 🇨🇭"
@@ -82,3 +82,4 @@
         }
     ]"
     />
+</div>
