@@ -6,7 +6,7 @@ titleTemplate: Portfolio
 
 hero:
   name: <span id="greetings">Hey!</span> 👋 I'm
-  text: Gianlorenzo Occhipinti 
+  text: <span id="myname">Gianlorenzo Occhipinti </span>
   actions:
     - theme: alt
       text: 👨‍💻 Solftware Engineer
@@ -35,7 +35,7 @@ features:
   --vp-home-hero-image-border-radius: 20px;
 }
 
-.text {
+#myname {
   background: -webkit-linear-gradient(180deg, #bd34fe 50%, #47caff);
   -webkit-background-clip: text;
   background-clip: text;
