@@ -1,10 +1,12 @@
+<script setup>
+import { withBase } from 'vitepress'
+</script>
 <template>
     <div class="icon-container">
         <img 
-            :src="iconUrl" 
+            :src="withBase(iconUrl)" 
             :alt="`Icon of ${name}`" 
             class="icon" 
-            @error="loadFallback" 
         />
         <span class="tooltip">{{ tooltipText }}</span>
     </div>
@@ -21,7 +23,7 @@ export default {
     },
     computed: {
         iconUrl() {
-            return `icons/${this.name}.svg`;
+            return withBase(`/icons/${this.name}.svg`);
         },
         tooltipText() {
             const tooltips = {
@@ -54,12 +56,9 @@ export default {
                 proxmox: 'Proxmox VE',
                 ubuntu: 'Ubuntu',
                 knime: 'KNIME',
+                minecraft: 'Minecraft'
             };
             return tooltips[this.name] || this.name;
-        }
-    }, methods: {
-        loadFallback(event) {
-            event.target.src = `icons/${this.name}.jpeg`;
         }
     }
 }
