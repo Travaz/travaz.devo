@@ -5,6 +5,7 @@ export default defineConfig({
   lang: 'en-US',
   title: "Gianlorenzo Occhipinti",
   description: "Gianlorenzo's portfolio",
+  base: '/',
   markdown: {
     config: (md) => {
       //@ts-ignore
