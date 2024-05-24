@@ -1,22 +1,25 @@
+<script setup>
+import {data as projects} from "../loader/projects.data"
+</script>
 <template>
-    <a :href="detailedPage" class="timeline-project-v2">
+    <a :href="project.url" class="timeline-project-v2" v-if="project.found">
         <div class="timeline-project-v2-image">
-            <img :src="imageSrc" />
+            <img :src="project.image" />
         </div>
 
         <div class="timeline-project-v2-content">
             <div class="timeline-project-v2-content-title">
-                <h2 :id="idFromTitle" tabindex="-1"> {{ title }}
+                <h2 :id="project.id" tabindex="-1"> {{ project.title }}
                     <a class="header-anchor" :href='headerAnchor' aria-label="Permalink">​</a>
                 </h2>
             </div>
 
             <div class="timeline-project-v2-content-description">
-                {{ description }}
+                {{ project.description }}
             </div>
 
             <div class="timeline-project-v2-content-badges">
-                <Badge v-for="tag in tags" :key="tag">{{ tag }}</Badge>
+                <Badge v-for="tag in project.tags" :key="tag">{{ tag }}</Badge>
             </div>
         </div>
     </a>
@@ -29,34 +32,18 @@
 export default {
     name: 'TimelineCard',
     props: {
-        imageSrc: {
+        projectId: {
             type: String,
-            required: true,
-        },
-        title: {
-            type: String,
-            required: true,
-        },
-        description: {
-            type: String,
-            required: true,
-        },
-        tags: {
-            type: Array,
-            required: true,
-        },
-        detailedPage: {
-            type: String,
-            required: false,
-            default: '',
-        },
+            required: true
+        }
     },
     computed: {
-        idFromTitle() {
-            return this.title.toLowerCase().replace(/ /g, '-');
+        project() {
+            const project = projects.find(project => project.frontmatter.projectId ?? undefined === this.projectId)
+            return {found: project !== undefined, ...project.frontmatter}
         },
         headerAnchor() {
-            return '#' + this.idFromTitle;
+            return '#' + this.project.id;
         },
     },
 }
