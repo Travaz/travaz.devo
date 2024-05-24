@@ -1,5 +1,6 @@
 <script setup>
 import { data as projects } from "../loader/projects.data"
+import Icon from './Icon.vue';
 </script>
 <template>
     <a :href="project.id" class="timeline-project" v-if="project.found">
@@ -17,7 +18,7 @@ import { data as projects } from "../loader/projects.data"
             </div>
 
             <div class="timeline-project-content-badges">
-                <Badge v-for="tag in project.tags" :key="tag">{{ tag }}</Badge>
+                <Icon v-for="icon in project.techs" :key="icon" :name="icon" />
             </div>
         </div>
     </a>
@@ -30,14 +31,16 @@ import { data as projects } from "../loader/projects.data"
 export default {
     name: 'TimelineCard',
     props: {
-        projectId: {
+        id: {
             type: String,
             required: true
         }
     },
     computed: {
         project() {
-            const project = projects.find(project => project.frontmatter.id ?? undefined === this.projectId)
+            console.log(projects)
+            const project = projects.find(project => (project.frontmatter.id ?? undefined) === this.id)
+            console.log(project)
             return { found: project !== undefined, ...project?.frontmatter }
         },
         headerAnchor() {
@@ -50,6 +53,7 @@ export default {
 <style>
 .timeline-project-content-badges {
     margin-top: 10px;
+    text-align: right;
 }
 
 .timeline-project:hover {
@@ -63,10 +67,9 @@ export default {
 }
 
 .timeline-project {
-    display: flex;
-
-    flex-direction: row;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
     gap: 1em;
     margin-top: 10px;
     padding: 20px;
@@ -82,10 +85,12 @@ export default {
 
 .timeline-project-image {
     max-width: 15vw;
+    display: flex;
 }
 
 .timeline-project-image>img {
     border-radius: 20px;
+    margin: auto;
 }
 
 .timeline-project-content {
@@ -98,12 +103,12 @@ export default {
 .timeline-project-content-title {
     font-weight: 600;
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: var(--vp-c-text-1) !important;
     padding-top: 20px;
 }
 
-.timeline-project-content-title > h2 {
+.timeline-project-content-title>h2 {
     margin: 0;
     border: 0;
     padding-top: 0;
@@ -111,12 +116,13 @@ export default {
 
 @media screen and (max-width: 600px) {
     .timeline-project {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .timeline-project-image {
-        max-width: 100%;
+        width: 200px;
     }
 
     .timeline-project-content {
