@@ -56,7 +56,11 @@ export default {
                 proxmox: 'Proxmox VE',
                 ubuntu: 'Ubuntu',
                 knime: 'KNIME',
-                minecraft: 'Minecraft'
+                minecraft: 'Minecraft',
+                esp8266: 'Espressif - ESP8266',
+                android: 'Android',
+                lua: 'Lua',
+                homekit: 'HomeKit',
             };
             return tooltips[this.name] || this.name;
         }
