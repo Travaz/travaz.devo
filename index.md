@@ -30,16 +30,32 @@ features:
 
 <style>
 :root {
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg, 
+    var(--gradient-second-color) 50%, 
+    var(--gradient-first-color) 50%
+    );
   --vp-home-hero-image-filter: blur(44px);
   --vp-home-hero-image-border-radius: 20px;
+  --gradient-first-color: #21d4fd;
+  --gradient-second-color: #b721ff;
 }
 
 #myname {
-  background: -webkit-linear-gradient(180deg, #bd34fe 50%, #47caff);
+  background: linear-gradient(56deg, 
+      var(--gradient-first-color) 0%, 
+      var(--gradient-second-color) 20%,
+      var(--gradient-first-color) 40%, 
+      rgba(255,255,255,1) 50%, 
+      rgba(255,255,255,1) 100%
+    );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: slideIn 1s ease-in-out;
+  background-size: 400%, 100%;
+  background-position: 0;
+  animation-fill-mode: forwards; 
 }
 
 @media (min-width: 640px) {
@@ -78,20 +94,17 @@ features:
     }
 }
 
-@keyframes slideInFromLeft {
+@keyframes slideIn {
   0% {
-    transform: translateX(-100%);
+    background-position: 100%;
   }
   100% {
-    transform: translateX(0);
+    background-position: 20%;
   }
 }
 
-@keyframes zoomInBounce {
+@keyframes fadeIn {
   0% {
-    opacity: 0;
-  }
-  30% {
     opacity: 0;
   }
   100% {
@@ -100,17 +113,15 @@ features:
 }
 
 .item, .action, .vp-doc {
-    animation: zoomInBounce 1s ease-in-out;
-
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out;
+    animation-delay: 1s;
+  animation-fill-mode: forwards; 
 }
 
   #greetings {
     white-space: nowrap;
     overflow: hidden;
-  }
-  .name, .text {
-      animation: 1s ease-out 0s 1 slideInFromLeft;
-
   }
 </style>
 
