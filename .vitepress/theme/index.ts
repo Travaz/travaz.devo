@@ -9,6 +9,7 @@ import Button from "./components/Button.vue";
 import TimelineCard from "./components/TimelineCard.vue";
 import "vitepress-markdown-timeline/dist/theme/index.css";
 import Layout from "./Layout.vue";
+
 export default {
   extends: DefaultTheme,
   Layout: Layout,
