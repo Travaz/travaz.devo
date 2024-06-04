@@ -78,16 +78,46 @@ features:
     }
 }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomInBounce {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.item, .action, .vp-doc {
+    animation: zoomInBounce 1s ease-in-out;
+
+}
+
   #greetings {
     white-space: nowrap;
     overflow: hidden;
+  }
+  .name, .text {
+      animation: 1s ease-out 0s 1 slideInFromLeft;
+
   }
 </style>
 
 <script setup>
   import { onMounted } from 'vue'
 
-  const names = ["Hey!", "Ciao!", "Hallo!", "Hola!", "Salut!", "Hej!"];
+  const names = ["Hey!", "Ciao!", "Grüezi!", "Hallo!", "Hola!", "Salut!", "Hej!"];
   let currentIndex = 0;
   let charIndex = 0;
   let deleting = false;
