@@ -1,5 +1,5 @@
 ---
-title: Taormina's official App
+title: Taormina's Official App
 description: I contributed to the development of the official app of Taormina.
 tags: []
 image: /img/app-taormina.JPEG
