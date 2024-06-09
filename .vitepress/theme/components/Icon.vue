@@ -56,6 +56,8 @@ export default {
                 graphql: 'GraphQL',
                 cytoscape: 'Cytoscape.js',
                 c: 'C',
+                cpp: 'C++',
+                csh: 'C#',
                 rpi: 'Raspberry Pi',
                 proxmox: 'Proxmox VE',
                 ubuntu: 'Ubuntu',
