@@ -8,6 +8,7 @@ id: 'bilancio-ea' # must concide with file name
 aside: false
 start: 2017-01
 end: 2017-06
+github: https://github.com/Gianlo98/BilancioEA
 ---
 
 ### Introduction 📚
