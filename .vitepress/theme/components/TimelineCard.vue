@@ -91,6 +91,8 @@ export default {
 .timeline-project-image>img {
     border-radius: 20px;
     margin: auto;
+    object-fit: cover;
+    height: 140px;
 }
 
 .timeline-project-content {
@@ -136,6 +138,10 @@ export default {
 
     .timeline-project-content-title {
         padding-top: 0;
+    }
+
+    .timeline-project-image {
+        max-width: 100%;
     }
 }
 </style>
