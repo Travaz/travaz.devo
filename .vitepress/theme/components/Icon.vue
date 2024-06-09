@@ -67,7 +67,8 @@ export default {
                 android: 'Android',
                 lua: 'Lua',
                 homekit: 'HomeKit',
-                ws: 'Websocket'
+                ws: 'Websocket',
+                mongodb: 'MongoDB'
             };
             return tooltips[this.name] || this.name;
         }
