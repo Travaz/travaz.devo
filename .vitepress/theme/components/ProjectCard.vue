@@ -48,6 +48,12 @@ export default {
 </script>
 
 <style>
+
+p > img {
+  border-radius: 20px;
+  margin: auto;
+}
+
 .project-card {
     display: grid;
     grid-template-rows: 20px 200px 3rem auto 30px;
