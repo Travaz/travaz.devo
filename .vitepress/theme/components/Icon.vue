@@ -8,7 +8,7 @@ import { withBase } from 'vitepress'
             :alt="`Icon of ${name}`" 
             class="icon" 
         />
-        <span class="tooltip">{{ tooltipText }}</span>
+    <span v-if="tooltip" class="tooltip"> {{tooltipText }}</span>
     </div>
 </template>
 
@@ -19,6 +19,10 @@ export default {
         name: {
             type: String,
             required: true
+        },
+        tooltip: {
+            type: Boolean,
+            default: true
         }
     },
     computed: {
@@ -70,6 +74,7 @@ export default {
 </script>
 
 <style scoped>
+
 .icon-container {
     position: relative;
     display: inline-block;
