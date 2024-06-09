@@ -7,7 +7,7 @@ const { frontmatter } = useData()
 <template>
     <div class="DocHeader" v-if="frontmatter.title">
         <h1 class="DocHeader-title">{{ frontmatter.title }}
-        <a :v-if="frontmatter.github" :href="frontmatter.github" aria-label="github" target="_blank" rel="noopener">
+        <a v-if="frontmatter.github" :href="frontmatter.github" aria-label="github" target="_blank" rel="noopener">
           <Icon name="github" :tooltip="false" />
         </a>
         </h1>
