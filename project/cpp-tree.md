@@ -1,5 +1,5 @@
 ---
-title: Binary Search Tree C++
+title: Binary Search Tree (unimib)
 description: Implementation of a binary search tree (BST) in C++ with support for custom data types and comparison operators.
 tags: []
 image: /img/bst.png
