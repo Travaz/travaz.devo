@@ -61,6 +61,7 @@ export default {
                 android: 'Android',
                 lua: 'Lua',
                 homekit: 'HomeKit',
+                ws: 'Websocket'
             };
             return tooltips[this.name] || this.name;
         }
