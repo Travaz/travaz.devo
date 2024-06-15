@@ -1,17 +1,17 @@
 ---
-layout: 'home'
+aside: false
 title: Event Manager 
 description: It all started from there 🤩 I was the event manager of one of the most important Italian Minecraft servers. 
 tags: [moderator, minecraft]
 image: /public/img/spawn-head.png
 techs: ['minecraft']
 id: 'event-manager' # must concide with file name
-start: '2012-10'
-end: '2013-05'
+start: '2013-10'
+end: '2014-10'
 --- 
 
-When I was 13, I was eager to contribute to one of the most important Minecraft servers in Italy. 
-The day after my 14th birthday, I interviewed and started as a **helper**, supporting customers with relevant in-game questions. 
+When I was 14, I was eager to contribute to one of the most important Minecraft servers in Italy. 
+The day after my 15th birthday, I interviewed and started as a **helper**, supporting customers with relevant in-game questions. 
 
 After a few months, thanks to my demonstrated logical skills and efforts to learn a minecraft bukkit plugin called [Variable Triggers](https://web.archive.org/web/20170927060133/https://dev.bukkit.org/projects/variabletriggers), I was promoted to **Moderator**. 
 My responsibility was to organize and execute daily recurring events for our customers. I was extremely excited as I always had enjoyed game design. 
