@@ -1,6 +1,6 @@
 ---
-title: MongoDB Summary
-description: Investigation of the MongoDB architecture
+title: Analysis of MongoDB (unimib)
+description: I Conducted a study and analysis of MongoDB, benchmarking its performance against PostgreSQL. 
 tags: []
 image: /img/mongo.png
 techs: [java, mongodb]
