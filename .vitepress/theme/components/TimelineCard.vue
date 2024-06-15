@@ -93,6 +93,7 @@ export default {
     margin: auto;
     object-fit: cover;
     height: 140px;
+    width: 200px;
 }
 
 .timeline-project-content {
