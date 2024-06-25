@@ -68,7 +68,8 @@ export default {
                 lua: 'Lua',
                 homekit: 'HomeKit',
                 ws: 'Websocket',
-                mongodb: 'MongoDB'
+                mongodb: 'MongoDB',
+                nextjs: 'NextJS'
             };
             return tooltips[this.name] || this.name;
         }
