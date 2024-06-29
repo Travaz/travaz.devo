@@ -10,13 +10,13 @@ I love to experiment and learn new stuff
 <TimelineCard id="dnsh"/>
 :::
 
-::: timeline 2024-03
+<!-- ::: timeline 2024-03
 <TimelineCard id="shortg"/>
-:::
+::: -->
 
-::: timeline 2024-02
+<!-- ::: timeline 2024-02
 <TimelineCard id="learnai"/>
-:::
+::: -->
 
 ::: timeline 2024-01
 <TimelineCard id="btp"/>
@@ -26,17 +26,17 @@ I love to experiment and learn new stuff
 <TimelineCard id="bella-modica"/>
 :::
 
-::: timeline 2023-01
+<!-- ::: timeline 2023-01
 <TimelineCard id="ehm"/>
-:::
+::: -->
 
 ::: timeline 2022-10
 <TimelineCard id="diprima"/>
 :::
 
-::: timeline 2022-04
+<!-- ::: timeline 2022-04
 <TimelineCard id="visual-analytics"/>
-:::
+::: -->
 
 ::: timeline 2021-11
 <TimelineCard id="syn"/>
