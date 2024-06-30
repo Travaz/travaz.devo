@@ -26,7 +26,7 @@
 
 <Experience
     title="MSc in Computer Science"
-    company="Università di Milano Bicocca (Unimib) 🇮🇹"
+    company="Università di Milano Bicocca (unimib) 🇮🇹"
     companyUrl="https://www.unimib.it/"
     companyLogo="logo/unimib.png"
     from="10-2020"
@@ -47,7 +47,7 @@
 
 <Experience
     title="BSc in Computer Science"
-    company="Università di Milano Bicocca (Unimib) 🇮🇹"
+    company="Università di Milano Bicocca (unimib) 🇮🇹"
     companyUrl="https://www.unimib.it/"
     companyLogo="logo/unimib.png"
     from="09-2017"

@@ -15,7 +15,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Contact me', link: '/contact-me' },
+      { text: 'Contact me', link: 'mailto:gianlorenzo@occhipinti.dev' },
       { text: 'Projects', link: '/project/' },
     ],
 

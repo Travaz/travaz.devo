@@ -113,9 +113,9 @@ features:
 }
 
 .item, .action, .vp-doc {
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out;
-    animation-delay: 1s;
+  /*opacity: 0;*/
+  /* animation: fadeIn 1s ease-in-out; */
+  animation-delay: 1s;
   animation-fill-mode: forwards; 
 }
 
@@ -176,8 +176,30 @@ features:
     agePlaceholder.textContent = age;
   }
 
+  function shouldRunAnimation() {
+    return !localStorage.getItem('hasVisited');
+  }
+
+  function setVisitedFlag() {
+    localStorage.setItem('hasVisited', 'true');
+  }
+
+  function applyInitialAnimations() {
+    document.querySelectorAll('.item, .action, .vp-doc').forEach(element => {
+      element.style.opacity = '0';
+      element.style.animation = 'fadeIn 1s ease-in-out';
+      element.style.animationDelay = '1s';
+      element.style.animationFillMode = 'forwards';
+    });
+  }
+
 
 onMounted(() => {
+  if (shouldRunAnimation()) {
+     setVisitedFlag();
+     applyInitialAnimations();
+  }
+
   typeWriter();
   setAge();
 });
