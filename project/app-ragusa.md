@@ -1,5 +1,5 @@
 ---
-title: My Hometown's Official App 
+title: Ragusa's Official App 
 description: Collab with a company to develop the official app for the municipality of Ragusa.
 tags: [app development, Goodbarber, HTML, CSS, responsive design, Ragusa, PHP, RSS feed]
 image: /img/app-ragusa.jpeg

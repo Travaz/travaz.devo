@@ -39,42 +39,6 @@ export default defineConfig({
         sortMenusOrderByDescending: true,
       }
     ]),
-    
-    // {
-    //   '/experience/': [
-    //     {
-    //       text: 'Experience',
-    //       items: [
-    //         { text: 'Renuo AG', link: '/experience/renuo' },
-    //         { text: 'MangaYo!', link: '/project/mangayo' },
-    //         { text: 'Arcan', link: '/project/arcan' },
-    //         { text: 'Dakimba', link: '/project/dakimba' },
-    //       ]
-    //     }
-    //   ],
-    //   '/project/': [
-    //     {
-    //       text: 'Project',
-    //       items: [
-    //         { text: 'MangaYo!', link: '/project/mangayo' },
-    //         { text: 'SYN', link: '/project/syn' },
-    //         { text: 'Investire in BTP', link: '/project/btp' }
-    //       ]
-    //     }
-    //   ],
-    //   '/education/': [
-    //     {
-    //       text: 'Education',
-    //       items: [
-    //         { text: 'MSc Computer Science - USI', link: '/education/usi' },
-    //         { text: 'MSc Computer Science - unimib', link: '/education/msc-unimib' },
-    //         { text: 'BSc Computer Science - unimib', link: '/education/bsc-unimib' },
-    //         { text: 'Diploma Business Information Systems Expert', link: '/education/diploma' }
-    //       ]
-    //     }
-    //   ]
-    // },
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Gianlo98' },
       { icon: 'linkedin', link: 'https://www.linkedin.com/in/gianlorenzo-o/' },

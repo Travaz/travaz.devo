@@ -8,7 +8,7 @@ id: 'sonar-envy' # must concide with file name
 github: https://github.com/Gianlo98/Feature-Envy-sonarqube-plugin
 aside: false
 date: '2021-10-01'
-end: '2021-10-01'
+end: '2021-11-01'
 ---
 
 ### Overview 📝

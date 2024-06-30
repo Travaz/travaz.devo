@@ -6,8 +6,8 @@ image: /img/smartgarden.png
 techs: [cpp, MQTT, docker, mysql, influxDB]
 id: 'smart-garden'
 aside: false
-date: '2022-03-01'
-end: '2022-06-01'
+date: '2021-03-01'
+end: '2021-06-01'
 github: https://github.com/Gianlo98/smart-garden-IoT
 ---
 

@@ -7,7 +7,7 @@ techs: [homekit]
 id: 'smart-tv' # must concide with file name
 aside: false
 date: '2017-02-01'
-end: '2017-03-01'
+end: '2017-05-01'
 ---
  
 ## Project Overview 📺
