@@ -9,11 +9,11 @@ date: '2020-10-01'
 end: 'now'
 aside: false
 ---
-## Project Overview 📈
+### 🚀 Project Overview
 
 I was initially approached by MangaYo! to create an e-commerce website to kickstart their business. Using Prestashop as a CMS, I developed the project from scratch, implementing various domain-specific features. The project spanned from October 2022 to the present, and since its release, the platform has handled over 200,000 orders.
 
-## Leadership and Strategic Influence 🏆
+### Leadership and Strategic Influence 🏆
 
 Recognizing the quality and efficiency of my work, MangaYo! made me a partner, granting me a significant role in the company's strategic decisions beyond IT. As a technical leader, I have to make business-critical IT decisions, coordinate teams, and manage personnel to ensure the platform's success 🚀. I feel the responsibility of the company's success on my shoulders, driving me to make impactful decisions and innovations. I'm also immensely grateful to the amazing team I work with, whose dedication and talent make our achievements possible.
 
