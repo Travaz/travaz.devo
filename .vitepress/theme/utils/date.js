@@ -1,4 +1,8 @@
 export function formattedDuration(from, to) {
+    if (!from || !to) {
+      return '';
+    }
+    
     const start = parseDate(from);
     const end = to.toLowerCase() === 'now' ? new Date() : parseDate(to);
 
@@ -32,6 +36,9 @@ export function parseDate(dateString) {
 }
 
 function formatDate(dateStr) {
+  if (!dateStr) {
+    return '';
+  }
 
   if (dateStr.toLowerCase() === 'now') {
     return 'Present';

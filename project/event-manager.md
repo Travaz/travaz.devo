@@ -3,7 +3,7 @@ aside: false
 title: Event Manager 
 description: It all started from there 🤩 I was the event manager of one of the most important Italian Minecraft servers. 
 tags: [moderator, minecraft]
-image: /public/img/spawn-head.png
+image: /img/eventmanager.jpg
 techs: ['minecraft']
 id: 'event-manager' # must concide with file name
 date: '2013-10-01'

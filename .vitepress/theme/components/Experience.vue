@@ -93,7 +93,11 @@ export default {
       return formattedDate(this.from);
     },
     formattedTo() {
-      return this.to.toLowerCase() === 'now' ? 'Present' : formattedDate(this.to);
+      if (this.to) {
+        return this.to.toLowerCase() === 'now' ? 'Present' : formattedDate(this.to);
+      }
+
+      return '';
     },
     duration() {
       return formattedDuration(this.from, this.to)
