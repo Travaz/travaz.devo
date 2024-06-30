@@ -6,8 +6,8 @@ image: /img/lmc.jpeg
 techs: [prolog]
 id: 'lmc' # must concide with file name
 aside: false
-start: 2018-11
-end: 2019-01
+date: '2018-11-01'
+end: '2019-01'
 ---
 
 ### 🚀 Project Overview

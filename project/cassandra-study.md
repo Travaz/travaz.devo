@@ -1,13 +1,13 @@
 ---
-title: Cassandra Analysis
+title: Cassandra Analysis (unimib)
 description: Conducted a thorough analysis and benchmarking of Apache Cassandra, comparing its performance with other database technologies.
 tags: [NoSQL, Benchmarking, Database Systems]
 image: /img/cassandra.png
 techs: [java, cassandra]
 id: 'cassandra-study'
 aside: false
-start: 2021-01
-end: 2021-02
+date: '2021-01-01'
+end: '2021-02-01'
 ---
 
 ### 🎯 Project Objectives

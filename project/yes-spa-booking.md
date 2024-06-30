@@ -6,8 +6,8 @@ image: /img/yes-spa.png
 techs: [android]
 id: 'yes-spa-booking' # must concide with file name
 aside: false
-start: '2017-03'
-end: '2017-04'
+date: '2017-03-01'
+end: '2017-04-01'
 ---
 
 ### Project Overview

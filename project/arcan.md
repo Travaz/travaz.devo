@@ -6,8 +6,8 @@ image: /img/arcan.jpg
 techs: ['react', 'cytoscape', 'mui', 'd3', 'plotly', 'graphql']
 id: 'arcan' # must concide with file name
 aside: false
-start: 2020-09
-end: 2022-06
+date: '2020-09-01'
+end: '2022-06'
 ---
 
 ### 🚀 Joining the Team

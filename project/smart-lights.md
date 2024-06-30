@@ -6,7 +6,7 @@ image: /img/smartlight.png
 techs: [lua, esp8266, android]
 id: 'smart-lights' # must coincide with the file name
 aside: false
-start: '2016-12'
+date: '2016-12-01'
 end: '2017-01'
 ---
  

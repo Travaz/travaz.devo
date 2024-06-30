@@ -1,3 +1,8 @@
+---
+aside: false
+---
+
+
 # My Journey at Renuo
 
 ## Introduction 🌟

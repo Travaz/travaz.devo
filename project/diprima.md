@@ -5,8 +5,8 @@ tags: []
 image: /img/diprima.webp
 techs: [nextjs, supabase]
 id: 'diprima' # must concide with file name
-start: 2021-10
-end: present
+date: '2022-10-01'
+end: 'now'
 aside: false
 ---
 

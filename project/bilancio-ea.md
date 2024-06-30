@@ -6,8 +6,8 @@ image: /img/bilancio-EA.png
 techs: [php, mariadb]
 id: 'bilancio-ea' # must concide with file name
 aside: false
-start: 2017-01
-end: 2017-06
+date: '2017-01-01'
+end: '2017-06-01'
 github: https://github.com/Gianlo98/BilancioEA
 ---
 

@@ -1,12 +1,12 @@
 ---
 title: Dakimba
-description: Startup aiming to speed up checking operations in the travel industry 
+description: Startup aiming to speed up checking operations in the travel industry.
 tags: []
 image: /img/dakimba.png
 techs: [react, proxmox, c, rpi, ws, java]
 id: 'dakimba' # must concide with file name
-start: '2018-10'
-end: '2020-01'
+date: '2018-10-01'
+end: '2020-01-01'
 aside: false
 ---
 

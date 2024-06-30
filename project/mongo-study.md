@@ -6,8 +6,8 @@ image: /img/mongo.png
 techs: [java, mongodb]
 id: 'mongo-study' # must concide with file name
 aside: false
-start: 2020-04
-end: 2020-05
+date: '2020-04-01'
+end: '2020-05-01'
 ---
 
 ### 🎯 Project Goals

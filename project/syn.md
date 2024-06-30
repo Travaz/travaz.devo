@@ -6,8 +6,8 @@ image: /logo/syn.webp
 techs: ['java', 'graphql', 'react', 'docker']
 id: 'syn' # must concide with file name
 aside: false
-start: 2021-10
-end: 2022-07
+date: 2021-10-01
+end: 2022-07-01
 github: https://github.com/USIREVEAL/SYN
 ---
 

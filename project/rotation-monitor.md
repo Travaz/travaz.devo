@@ -6,8 +6,8 @@ image: /img/rotation-monitor.png
 techs: [csh]
 id: 'rotation-monitor' # must concide with file name
 aside: false
-start: '2019-07'
-end: '2019-08'
+date: '2019-07-01'
+end: '2019-08-01'
 ---
 
 Not sure about the right display orientation? Adjust them based on your needs! Rotation Monitor is a smart device designed to automatically adjust your monitor's orientation based on its position. This hobby project was developed to enhance user experience by optimizing the screen layout for different activities. I found vertical orientation perfect for reading documents, while horizontal orientation works better for emails and multitasking.

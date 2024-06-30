@@ -5,8 +5,8 @@ tags: []
 image: /img/railmine.jpg
 techs: [java, php, ubuntu, mariadb, minecraft, ws]
 id: 'railmine' # must concide with file name
-start: '2014-10'
-end: '2017-08'
+date: '2014-10-01'
+end: '2017-08-01'
 aside: false
 ---
 

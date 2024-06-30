@@ -15,6 +15,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vitepress-markdown-timeline": "^1.2.1"
+    "vitepress-markdown-timeline": "^1.2.1",
+    "vitepress-sidebar": "^1.23.2"
   }
 }

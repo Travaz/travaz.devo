@@ -6,7 +6,7 @@ image: /img/app-taormina.JPEG
 techs: []
 id: 'app-taormina' # must concide with file name
 aside: false
-start: '2017-04'
+date: '2017-04-01'
 end: '2017-05'
 ---
 

@@ -1,4 +1,7 @@
-### 🎓 High School Experience: Business Information Systems Specialist
+---
+title: High School Diploma in Business Information Systems Specialist
+date: 2013-09-01
+---
 
 My high school diploma, taken in the beautiful city of [Ragusa](https://www.italia.it/en/sicily/ragusa) (Sicily), specialized in Business Information Systems, where I gained in-depth technical and IT knowledge. This included a blend of IT and economic studies such as business economics, political economy, and more.
 

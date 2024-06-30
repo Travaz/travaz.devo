@@ -1,14 +1,14 @@
 ---
 title: SmartHome (unimib)
-description: Smart controller based on MQTT protocol
+description: Customizable MQTT-Based Smart Controller for Home Automation
 tags: []
 image: /img/smart-home.png
 techs: [java, MQTT, electron]
 id: 'smarthome' # must concide with file name
 github: https://github.com/Gianlo98/Smart-Home
 aside: false
-start: 2020-01
-end: 2020-02
+date: '2020-01-01'
+end: '2020-02-01'
 ---
 
 ### Introduction 📚

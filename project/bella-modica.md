@@ -6,8 +6,8 @@ image: /img/bellamodica.webp
 techs: [shopify]
 id: 'bella-modica' # must concide with file name
 aside: false
-start: 2023-10
-end: 2024-01
+date: '2023-10-01'
+end: '2024-01-01'
 ---
 
 🌟 While visiting [Modica, Sicily](https://g.co/kgs/H33ZPJV), I tasted an incredible panettone that left me curious about the local business behind it. I discovered a small, promising shop and encouraged them to create an e-commerce site to complement their physical store. I took the initiative to build the online store using Shopify, ensuring it was user-friendly and manageable by the store owner.

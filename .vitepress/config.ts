@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import timeline from "vitepress-markdown-timeline";
+import VitePressSidebar from 'vitepress-sidebar';
 
 export default defineConfig({
   lang: 'en-US',
@@ -19,40 +20,60 @@ export default defineConfig({
       { text: 'Projects', link: '/project/' },
     ],
 
-    sidebar: {
-      '/experience/': [
-        {
-          text: 'Experience',
-          items: [
-            { text: 'Renuo AG', link: '/experience/renuo' },
-            { text: 'MangaYo!', link: '/experience/mangayo' },
-            { text: 'Arcan', link: '/experience/arcan' },
-            { text: 'Dakimba', link: '/experience/dakimba' },
-          ]
-        }
-      ],
-      '/project/': [
-        {
-          text: 'Project',
-          items: [
-            { text: 'MangaYo!', link: '/project/mangayo' },
-            { text: 'SYN', link: '/project/syn' },
-            { text: 'Investire in BTP', link: '/project/btp' }
-          ]
-        }
-      ],
-      '/education/': [
-        {
-          text: 'Education',
-          items: [
-            { text: 'MSc Computer Science - USI', link: '/education/usi' },
-            { text: 'MSc Computer Science - unimib', link: '/education/msc-unimib' },
-            { text: 'BSc Computer Science - unimib', link: '/education/bsc-unimib' },
-            { text: 'Diploma Business Information Systems Expert', link: '/education/diploma' }
-          ]
-        }
-      ]
-    },
+    sidebar: VitePressSidebar.generateSidebar([
+      {
+        documentRootPath: '',
+        scanStartPath: 'project',
+        resolvePath: '/project/',
+        useTitleFromFrontmatter: true,
+        sortMenusByFrontmatterDate: true,
+        sortMenusOrderByDescending: true,
+        excludeFiles: ['ehm.md', 'learnai.md', 'shortg.md', 'example.md', 'visual-analytics.md'],
+      },
+      {
+        documentRootPath: '',
+        scanStartPath: 'education',
+        resolvePath: '/education/',
+        useTitleFromFrontmatter: true,
+        sortMenusByFrontmatterDate: true,
+        sortMenusOrderByDescending: true,
+      }
+    ]),
+    
+    // {
+    //   '/experience/': [
+    //     {
+    //       text: 'Experience',
+    //       items: [
+    //         { text: 'Renuo AG', link: '/experience/renuo' },
+    //         { text: 'MangaYo!', link: '/project/mangayo' },
+    //         { text: 'Arcan', link: '/project/arcan' },
+    //         { text: 'Dakimba', link: '/project/dakimba' },
+    //       ]
+    //     }
+    //   ],
+    //   '/project/': [
+    //     {
+    //       text: 'Project',
+    //       items: [
+    //         { text: 'MangaYo!', link: '/project/mangayo' },
+    //         { text: 'SYN', link: '/project/syn' },
+    //         { text: 'Investire in BTP', link: '/project/btp' }
+    //       ]
+    //     }
+    //   ],
+    //   '/education/': [
+    //     {
+    //       text: 'Education',
+    //       items: [
+    //         { text: 'MSc Computer Science - USI', link: '/education/usi' },
+    //         { text: 'MSc Computer Science - unimib', link: '/education/msc-unimib' },
+    //         { text: 'BSc Computer Science - unimib', link: '/education/bsc-unimib' },
+    //         { text: 'Diploma Business Information Systems Expert', link: '/education/diploma' }
+    //       ]
+    //     }
+    //   ]
+    // },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Gianlo98' },

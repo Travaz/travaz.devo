@@ -5,8 +5,8 @@ tags: [e-commerce, Prestashop, AWS, IT infrastructure, SEO, app development]
 image: /img/mangayo.png
 techs: ['prestashop', 'aws', 'php', 'python', 'mariadb', 'centos', 'ubuntu']
 id: 'mangayo'
-date-start: '2022-10-01'
-date-end: 'present'
+date: '2020-10-01'
+end: 'now'
 aside: false
 ---
 ## Project Overview 📈

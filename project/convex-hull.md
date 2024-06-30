@@ -1,12 +1,12 @@
 ---
 title: Convex Hull (unimib)
-description: Implemented the Convex Hull algorithm using Prolog
+description: Implemented the Convex Hull algorithm using Prolog.
 tags: []
 image: /img/convex-hull.png
 techs: [prolog]
 id: 'convex-hull' # must concide with file name
-start: 2019-07
-end: 2019-08
+date: '2019-07-01'
+end: '2019-08-01'
 aside: false
 github: https://github.com/Gianlo98/Convex-Hull-prolog
 ---

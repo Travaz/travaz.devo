@@ -6,8 +6,8 @@ image: /img/dnsh.jpg
 techs: [java, react, gcp]
 id: 'dnsh' # must concide with file name
 aside: false
-start: 2023-10
-end: present
+date: '2023-10-01'
+end: 'now'
 ---
 
 ## Project Overview 🌟

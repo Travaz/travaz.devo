@@ -6,8 +6,8 @@ tags: [moderator, minecraft]
 image: /public/img/spawn-head.png
 techs: ['minecraft']
 id: 'event-manager' # must concide with file name
-start: '2013-10'
-end: '2014-10'
+date: '2013-10-01'
+end: '2014-10-01'
 --- 
 
 When I was 14, I was eager to contribute to one of the most important Minecraft servers in Italy. 

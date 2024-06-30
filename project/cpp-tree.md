@@ -6,8 +6,8 @@ image: /img/bst.png
 techs: [cpp]
 id: 'cpp-tree' # must concide with file name
 aside: false
-start: 2020-04
-end: 2020-05
+date: '2020-04-01'
+end: '2020-05-01'
 github: https://github.com/Gianlo98/BST
 ---
 
