@@ -32,6 +32,7 @@
 <script>
 import Icon from './Icon.vue';
 import TreeItem from './TreeItem.vue';
+import { formattedDate, formattedDuration } from '../utils/date';
 
 export default {
   name: 'Experience',
@@ -89,44 +90,19 @@ export default {
   },
   computed: {
     formattedFrom() {
-      return this.formatDate(this.from);
+      return formattedDate(this.from);
     },
     formattedTo() {
-      return this.to.toLowerCase() === 'now' ? 'Present' : this.formatDate(this.to);
+      return this.to.toLowerCase() === 'now' ? 'Present' : formattedDate(this.to);
     },
     duration() {
-      const start = this.parseDate(this.from);
-      const end = this.to.toLowerCase() === 'now' ? new Date() : this.parseDate(this.to);
-
-      // Add 1 day to the end date to include the end date in the calculation
-      start.setDate(1);
-      end.setDate(2);
-
-      const diff = new Date(end - start);
-      const years = diff.getUTCFullYear() - 1970;
-      const months = diff.getUTCMonth();
-
-      let str = '';
-      if (years > 0) {
-        str += `${years} ${years > 1 ? 'yrs' : 'yr'} `;
-      }
-
-      return str + `${months} ${months > 1 ? 'mos' : 'mo'}`;
+      return formattedDuration(this.from, this.to)
     },
     largeCompanyLogoUrl() {
       return `/public/icons/${this.companyLogo}.svg`;
     }
   },
   methods: {
-    formatDate(dateStr) {
-      const [month, year] = dateStr.split('-');
-      const date = new Date(year, month - 1);
-      return date.toLocaleString('default', { month: 'short', year: '2-digit' });
-    },
-    parseDate(dateStr) {
-      const [month, year] = dateStr.split('-');
-      return new Date(year, month - 1);
-    },
     hasIcons() {
       return this.icons.length > 0;
     },

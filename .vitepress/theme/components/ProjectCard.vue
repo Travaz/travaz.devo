@@ -1,20 +1,22 @@
 <template>
     <a :href="detailedPage" class="project-card">
         <!-- <div class="project-card"> -->
-            <div class="header">
-                <span class="date">{{ date }}</span>
-            </div>
-            <img :src="imageSrc" :alt="title" class="project-card-icon" />
-            <div class="project-card-title">{{ title }}</div>
-            <p class="description">{{ description }}</p>
-            <div class="tags">
-                <Badge v-for="tag in tags" :key="tag">{{ tag }}</Badge>
-            </div>
+        <div class="header">
+            <span class="date">{{ formattedDate }}</span>
+        </div>
+        <img :src="imageSrc" :alt="title" class="project-card-icon" />
+        <div class="project-card-title">{{ title }}</div>
+        <p class="description">{{ description }}</p>
+        <div class="tags">
+            <Badge v-for="tag in tags" :key="tag">{{ tag }}</Badge>
+        </div>
         <!-- </div> -->
     </a>
 </template>
 
 <script>
+import { formattedDate } from '../utils/date';
+
 export default {
     name: 'ProjectCard',
     props: {
@@ -44,14 +46,18 @@ export default {
             default: '',
         },
     },
+    computed: {
+        formattedDate() {
+            return formattedDate(this.date);
+        }
+    }
 }
 </script>
 
 <style>
-
-p > img {
-  border-radius: 20px;
-  margin: auto;
+p>img {
+    border-radius: 20px;
+    margin: auto;
 }
 
 .project-card {

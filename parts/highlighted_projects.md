@@ -3,7 +3,7 @@
 
 <div class="project-container">
   <project-card
-    date="Oct 2020"
+    date="2020-10"
     image-src="logo/mangayo.png"
     detailedPage="project/mangayo"
     title="MangaYo!"
@@ -12,7 +12,7 @@
   />
 
   <project-card
-    date="Jul 2022"
+    date="2022-07"
     image-src="logo/syn.webp"
     title="SYN"
     detailedPage="project/syn"
@@ -21,7 +21,7 @@
   />
 
   <project-card
-    date="Jan 2024"
+    date="2024-01"
     image-src="logo/btp.png"
     title="Investire in BTP"
     detailedPage="project/btp"

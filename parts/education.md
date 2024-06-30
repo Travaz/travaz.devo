@@ -7,8 +7,8 @@
     company="Università della Svizzera Italiana (USI) 🇨🇭"
     companyUrl="https://www.usi.ch"
     companyLogo="logo/usi.jpg"
-    from="09-2021"
-    to="07-2022"
+    from="2021-09"
+    to="2022-07"
     detailedPage='education/usi'
     :tree="[
         {
@@ -29,8 +29,8 @@
     company="Università di Milano Bicocca (unimib) 🇮🇹"
     companyUrl="https://www.unimib.it/"
     companyLogo="logo/unimib.png"
-    from="10-2020"
-    to="07-2022"
+    from="2020-10"
+    to="2022-07"
     detailedPage='/education/msc-unimib'
     :tree="[
         {
@@ -50,8 +50,8 @@
     company="Università di Milano Bicocca (unimib) 🇮🇹"
     companyUrl="https://www.unimib.it/"
     companyLogo="logo/unimib.png"
-    from="09-2017"
-    to="10-2020"
+    from="2017-09"
+    to="2020-10"
     detailedPage='/education/bsc-unimib'
     :tree="[
         {
@@ -70,8 +70,8 @@
 <Experience
     title="Diploma in Business Information Systems Expert"
     company="Commercial Technical Institute of Ragusa 🇮🇹"
-    from="09-2012"
-    to="07-2017"
+    from="2012-09"
+    to="2017-07"
     detailedPage='/education/diploma'
     :tree="[
         {

@@ -3,7 +3,7 @@ title: MangaYo!
 description: Development and management of an e-commerce platform, leading to significant business growth and operational efficiency.
 tags: [e-commerce, Prestashop, AWS, IT infrastructure, SEO, app development]
 image: /img/mangayo.png
-techs: ['prestashop', 'aws', 'php', 'python', 'mariadb', 'centos', 'ubuntu']
+techs: ['aws', 'gcp', 'php', 'mariadb', 'react', 'prestashop', 'python', 'docker', 'supabase', 'centos']
 id: 'mangayo'
 date: '2020-10-01'
 end: 'now'

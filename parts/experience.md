@@ -7,7 +7,7 @@
     company="Renuo AG"
     companyUrl="https://www.renuo.ch"
     companyLogo="logo/renuo.jpeg"
-    from="09-2022"
+    from="2022-09"
     to="now"
     detailedPage='experience/renuo'
     :icons="['aws', 'gcp', 'java', 'mysql', 'k8s', 'python', 'docker', 'nginx', 'elasticsearch', 'spring', 'redis', 'rails']"
@@ -19,7 +19,7 @@
     companyUrl="https://mangayo.it"
     companyLogo="logo/mangayo.jpeg"
     detailedPage='project/mangayo'
-    from="10-2020"
+    from="2020-10"
     to="now"
     :icons="['aws', 'gcp', 'php', 'mariadb', 'react', 'prestashop', 'python', 'docker', 'supabase', 'centos']"
     />
@@ -30,8 +30,8 @@
     companyUrl="https://www.arcan.tech/"
     companyLogo="logo/arcan.jpeg"
     detailedPage='project/arcan'
-    from="10-2020"
-    to="07-2022"
+    from="2020-10"
+    to="2022-07"
     :icons="['react', 'cytoscape', 'mui', 'd3', 'plotly', 'graphql']"
     />
 
@@ -39,8 +39,8 @@
     title="Full Stack Developer"
     company="Dakimba"
     detailedPage='project/dakimba'
-    from="10-2019"
-    to="12-2020"
+    from="2019-10"
+    to="2020-12"
     :icons="['react', 'mui', 'ubuntu', 'proxmox', 'rpi', 'c']"
     />
 
