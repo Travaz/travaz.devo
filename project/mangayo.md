@@ -39,7 +39,7 @@ I supported the development and integration of MangaYo!’s native app, which be
 
 ### Scalability Solutions ⚙️
 
-To address scalability issues, I temporarily implemented a queue system and leveraged AWS. These measures ensured the website remained operational during high-traffic periods, allowing MangaYo! to handle approximately 100,000 users simultaneously without crashing. This solution provided the necessary time to adapt and scale services for the domestic market without taking the website offline.
+To address scalability issues, I temporarily implemented a queue system and leveraged AWS. These measures ensured the website remained operational during high-traffic periods, allowing MangaYo! to handle approximately 15,000 users simultaneously without crashing. This solution provided the necessary time to adapt and scale services for the domestic market without taking the website offline.
 
 ## Conclusion and Impact 💼
 Overall, my involvement in MangaYo! has led to its substantial growth and operational success, establishing it as a leading e-commerce platform in Italy. The combination of strategic decision-making, technical leadership, and a collaborative team effort has driven the platform to new heights, ensuring continued growth and market leadership. As a new partner, I am excited about the future and eager to contribute further to MangaYo!'s ongoing success.
