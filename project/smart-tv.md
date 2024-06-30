@@ -12,7 +12,7 @@ end: '2017-05-01'
  
 ## Project Overview 📺
 
-Following the enthusiasm from my previous [IoT project](/project/smart-lights.html), I embarked on a hobby project to integrate my Sony Bravia TV with Apple HomeKit, enabling me to control it with my voice and Apple devices.
+Following the enthusiasm from my previous [IoT project](/project/smart-light), I embarked on a hobby project to integrate my Sony Bravia TV with Apple HomeKit, enabling me to control it with my voice and Apple devices.
 
 ## Challenge and Solution 🛠️
 
