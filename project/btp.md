@@ -10,7 +10,7 @@ date: '2024-01-01'
 end: 'now'
 ---
 
-
+### 🚀 Project Overview
 In a team of two software engineers, we developed **Investire In BTP**, a free tool designed to provide detailed information, analysis, and real-time updates on Italian government bonds (BTPs). Our platform targets a niche of around 500,000 users interested in bond investments, offering unique tools and insights.
 
 ### 🔍 Key Features

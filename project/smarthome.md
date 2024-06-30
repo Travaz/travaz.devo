@@ -1,6 +1,6 @@
 ---
 title: SmartHome (unimib)
-description: Customizable MQTT-Based Smart Controller for Home Automation
+description: Customizable MQTT-Based Smart Controller for Home Automation.
 tags: []
 image: /img/smart-home.png
 techs: [java, MQTT, electron]
