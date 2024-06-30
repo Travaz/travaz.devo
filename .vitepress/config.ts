@@ -52,7 +52,7 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Wanna have a site like this? Check out my <a href="/project/portfolio"> portfolio-project </a>',
+      message: 'Wanna have a site like this? Check out my <a href="https://github.com/Gianlo98/press-portfolio"> portfolio-project </a>',
       copyright: '<a href="privacy-policy">Privacy Policy</a>',
     }
   },
