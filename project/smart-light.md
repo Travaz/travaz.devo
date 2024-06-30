@@ -23,7 +23,7 @@ My parents considered buying an electrical clock to automate this process, but I
 - **ESP8266 & LUA**: The core of this device is built using the ESP8266 microcontroller, programmed with a LUA TCP server. The LUA experience was derived from working with ComputerCraft.
 - **Android App**: A companion Android app, developed with Android Studio, allows easy control and customization of the lights from your smartphone.
 
-![Demo](/img/smartlight.gif)
+![Demo](/img/smartlight-demo.gif)
 
 ### Results 🌟🔋
 After a month of use, the energy savings were modest, around 4-5 euros compared to the previous year. However, it was gratifying to see the potential for energy conservation and the added convenience. Plus, knowing that our small effort contributes to a greener planet is a reward in itself! 🌏🌿
