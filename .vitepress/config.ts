@@ -56,5 +56,8 @@ export default defineConfig({
       copyright: '<a href="privacy-policy">Privacy Policy</a>',
     }
   },
-  head: [['link', { rel: 'icon', type: "image/png", href: '/icon.png' }]]
+  head: [['link', { rel: 'icon', type: "image/png", href: '/icon.png' }]],
+  sitemap: {
+    hostname: 'https://occhipinti.dev'
+  }
 })

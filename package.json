@@ -10,6 +10,7 @@
     "typescript": "^5.0.0"
   },
   "scripts": {
+    "build": "vite build",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
