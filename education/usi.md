@@ -1,6 +1,7 @@
 ---
 title: 🎓 MSc in Computer Science (usi)
 date: 2021-09-01
+end: 2022-07-01
 ---
 
 During my academic journey, I had the honor of attending Università della Svizzera Italiana (USI) in Lugano as part of my Master of Science in Computer Science program at the University of Milan-Bicocca (unimib). Winning the double degree scholarship enabled me to spend the second year of my master's program immersed in USI's vibrant academic environment, significantly enriching my educational and personal growth.

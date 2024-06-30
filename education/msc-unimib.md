@@ -1,6 +1,7 @@
 ---
 title: 🎓 MSc in Computer Science (unimib)
 date: 2020-10-01
+end: 2022-07-01
 ---
 
 During my Master's program at the University of Milan-Bicocca (unimib), I immersed myself in a rigorous and dynamic curriculum that significantly enhanced my skills in AI, cloud computing, and algorithms. With a **perfect GPA of 30/30**, achieved without failing a single exam, I demonstrated my dedication and passion for my studies 💪😎. This exceptional academic performance earned me the opportunity to study at USI on a double degree scholarship.

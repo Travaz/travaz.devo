@@ -1,6 +1,7 @@
 ---
 title: 🎓 BSc in Computer Science (unimib)
 date: 2017-09-01
+end: 2020-10-01
 ---
 
 With a passion for innovation and a drive for excellence, I embarked on my Bachelor of Science in Computer Science at the University of Milan-Bicocca. My academic journey was marked by a **GPA of 29/30** and a final grade of **110/110 summa cum laude**, demonstrating my commitment to mastering the complexities of computer science. Below are some of the key courses that shaped my expertise and fueled my enthusiasm for the field:
