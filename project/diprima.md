@@ -1,5 +1,5 @@
 ---
-title: DiPriMa - Digital Price Management
+title: DiPriMa
 description: An innovative web platform designed to revolutionize contract management operations in procurement. 
 tags: []
 image: /img/diprima.webp
@@ -11,7 +11,7 @@ aside: false
 ---
 
 ### 🚀 Project Overview
-DiPriMa is a web platform that provides a powerful solution to optimize contract management operations, making processes more efficient and reliable.
+DiPriMa - Digital Price Management is a web platform that provides a powerful solution to optimize contract management operations, making processes more efficient and reliable.
 
 As a member of a team of software engineers, I contributed to the development of the first version of DiPriMa, a sophisticated tool for procurement that leverages the twenty-year experience of a Chief Procurement Officer driving the project. Our aim was to bring together deep financial expertise and cutting-edge technology to create a solution that could truly transform contract management operations. Given that the project is still in its initial stages, additional details cannot be disclosed at this time.
 
