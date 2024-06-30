@@ -132,6 +132,7 @@ export default {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  min-width: 250px;
 }
 
 .job-title {
@@ -173,9 +174,7 @@ export default {
 
 .icons-container {
   display: flex;
-  align-items: center;
-  min-width: 10em;
-  text-align: center;
+  justify-content: center;
 }
 
 .dates {
