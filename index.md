@@ -170,7 +170,7 @@ features:
   function setAge() {
     // Yes, I am a very lazy person, but that is also my virtue
 
-    const BDAY = "10-14-1998";
+    const BDAY = "1998-10-14";
     const diff = new Date(new Date() - new Date(BDAY))
     const age = diff.getUTCFullYear() - 1970;
     agePlaceholder.textContent = age;
