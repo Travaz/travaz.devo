@@ -246,7 +246,7 @@ export default {
 @media (max-width: 600px) {
   .cv-experience {
     flex-direction: column;
-    background-color: #f6f6f7;
+    background-color: var(--vp-c-bg-soft);
     padding: 10px;
     border-radius: 20px;
     align-content: center;

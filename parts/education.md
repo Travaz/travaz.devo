@@ -68,8 +68,8 @@
     />
 
 <Experience
-    title="Diploma in Business Information Systems Expert"
-    company="Commercial Technical Institute of Ragusa 🇮🇹"
+    title="Diploma in Business Information Systems"
+    company="Commercial Technical Institute Ragusa 🇮🇹"
     from="2012-09"
     to="2017-07"
     detailedPage='/education/diploma'
