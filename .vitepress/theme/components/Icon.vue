@@ -7,6 +7,7 @@ import { withBase } from 'vitepress'
             :src="withBase(iconUrl)" 
             :alt="`Icon of ${name}`" 
             class="icon" 
+            loading="lazy"
         />
     <span v-if="tooltip" class="tooltip"> {{tooltipText }}</span>
     </div>
