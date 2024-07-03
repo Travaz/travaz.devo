@@ -2,7 +2,7 @@
 title: Arcan
 description: Developed a UI for a system’s architectural quality detection tool using React, GraphQL, and various visualization libraries. 
 tags: []
-image: /img/arcan.jpg
+image: /img/arcan.webp
 techs: ['react', 'cytoscape', 'mui', 'd3', 'plotly', 'graphql']
 id: 'arcan' # must concide with file name
 aside: false

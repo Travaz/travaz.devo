@@ -2,7 +2,7 @@
 title: Analysis of MongoDB (unimib)
 description: I Conducted a study and analysis of MongoDB, benchmarking its performance against PostgreSQL. 
 tags: []
-image: /img/mongo.png
+image: /img/mongo.webp
 techs: [java, mongodb]
 id: 'mongo-study' # must concide with file name
 aside: false

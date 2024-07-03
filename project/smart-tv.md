@@ -2,7 +2,7 @@
 title: Smart TV
 description: I revolutionized my TV experience by allowing voice-activated on/off control through Apple HomeKit.
 tags: []
-image: /img/smartTV.png
+image: /img/smartTV.webp
 techs: [homekit]
 id: 'smart-tv' # must concide with file name
 aside: false
@@ -22,7 +22,7 @@ One of the significant challenges was accurately capturing and replicating the A
 
 ## Impact and Results 🌟
 
-![Smart TV Control](/img/smartTV.gif)
+![Smart TV Control](/img/smartTVDemo.webp)
 
 The result was satisfying: I could turn my TV on and off using Siri on my iPhone or my Apple Watch, making it a convenient solution, especially when the remote control was lost 😆.
 

@@ -2,7 +2,7 @@
 title: Smart Garden IoT System
 description: Developed an autonomous, fully configurable Smart Garden IoT system to monitor and water plants efficiently using various sensors and decentralized control.
 tags: [IoT, Smart Garden, Microcontrollers, MQTT, Sensors]
-image: /img/smartgarden.png
+image: /img/smartgarden.webp
 techs: [cpp, MQTT, docker, mysql, influxDB]
 id: 'smart-garden'
 aside: false
@@ -45,6 +45,6 @@ Working on the Smart Garden IoT system was incredibly rewarding. My passion, com
 
 One of the most satisfying aspects was implementing the decentralized control mechanism, which ensured the system's robustness. Additionally, the smart rain feature demonstrated the practical benefits of IoT in conserving resources. **Achieving top grades and seeing the system work seamlessly was incredibly satisfying!** 😎
 
-![Smart Garden IoT Board](/img/smartgarden-board.png)
+![Smart Garden IoT Board](/img/smartgarden-board.webp)
 
 [Link to the report (PDF)](/doc/unimib-smartgarden.pdf)

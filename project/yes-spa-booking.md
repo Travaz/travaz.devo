@@ -2,7 +2,7 @@
 title: Booking System for Yes SPA
 description: Yes SPA needed a booking system app.
 tags: []
-image: /img/yes-spa.png
+image: /img/yes-spa.webp
 techs: [android]
 id: 'yes-spa-booking' # must concide with file name
 aside: false

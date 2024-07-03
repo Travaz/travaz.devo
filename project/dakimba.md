@@ -2,7 +2,7 @@
 title: Dakimba
 description: Startup aiming to speed up checking operations in the travel industry.
 tags: []
-image: /img/dakimba.png
+image: /img/dakimba.webp
 techs: [react, proxmox, c, rpi, ws, java]
 id: 'dakimba' # must concide with file name
 date: '2018-10-01'
@@ -18,7 +18,7 @@ At Dakimba, I played a crucial role in transforming the vision of a revolutionar
 
 One of my most challenging yet rewarding tasks was building the first prototype for the Fast Check-in system. This was a super hard, one-week job carried out during my summer break. The intensive work paid off, and the prototype was 100% functional by the end. The satisfaction of seeing my efforts result in a working system was immense and fueled further development.
 
-![Prototype](/img/dakimba-prototype-1.png)
+![Prototype](/img/dakimba-prototype-1.webp)
 
 We first focused on developing a prototype for a Fast Check-in system, designed to streamline the check-in process for travelers. This system aimed to reduce waiting times and improve user experience by allowing guests to check in directly via an automated process. This innovative solution was well-received and formed the basis for further development.
 

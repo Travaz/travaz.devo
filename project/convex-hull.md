@@ -2,7 +2,7 @@
 title: Convex Hull (unimib)
 description: Implemented the Convex Hull algorithm using Prolog.
 tags: []
-image: /img/convex-hull.png
+image: /img/convex-hull.webp
 techs: [prolog]
 id: 'convex-hull' # must concide with file name
 date: '2019-07-01'

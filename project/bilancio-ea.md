@@ -2,7 +2,7 @@
 title: Bilancio EA
 description: High school thesis project to automatize generation of income statement and balance sheet. 
 tags: []
-image: /img/bilancio-EA.png
+image: /img/bilancio-EA.webp
 techs: [php, mariadb]
 id: 'bilancio-ea' # must concide with file name
 aside: false
@@ -62,4 +62,4 @@ The automation not only saved time but also ensured accuracy and consistency in 
 
 This was the booklet used to present the project during the final exam. Maybe it was a little bit too much 😅, but I really put a lot of effort into this project at that time. As you can see, the project has been published on the school's official website, which is an honour! Unfortunately, the brochure is only available in Italian.
 
-![Booklet](/img/bilancio-EA-summary.png)
+![Booklet](/img/bilancio-EA-summary.webp)

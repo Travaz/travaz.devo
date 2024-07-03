@@ -2,7 +2,7 @@
 title: "Smart Tree Lights 🎄💡"
 description: "I built a smart light device to automate our Christmas tree lights and save energy! 🌏🌿"
 tags: []
-image: /img/smartlight.png
+image: /img/smartlight.webp
 techs: [lua, esp8266, android]
 id: 'smart-lights' # must coincide with the file name
 aside: false

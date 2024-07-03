@@ -2,7 +2,7 @@
 title: Ragusa's Official App 
 description: Collab with a company to develop the official app for the municipality of Ragusa.
 tags: [app development, Goodbarber, HTML, CSS, responsive design, Ragusa, PHP, RSS feed]
-image: /img/app-ragusa.jpeg
+image: /img/app-ragusa.webp
 techs: ['php']
 id: 'app-ragusa'
 aside: false

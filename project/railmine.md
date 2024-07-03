@@ -2,7 +2,7 @@
 title: "Railmine Community"
 description: With some friends we decided to found a Minecraft Community aimed at enhancing gameplay experience through custom mods, plugins an a custom launcher. 
 tags: []
-image: /img/railmine.jpg
+image: /img/railmine.webp
 techs: [java, php, ubuntu, mariadb, minecraft, ws]
 id: 'railmine' # must concide with file name
 date: '2014-10-01'

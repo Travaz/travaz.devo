@@ -2,7 +2,7 @@
 title: MangaYo!
 description: Development and management of an e-commerce platform, leading to significant business growth and operational efficiency.
 tags: [e-commerce, Prestashop, AWS, IT infrastructure, SEO, app development]
-image: /img/mangayo.png
+image: /img/mangayo.webp
 techs: ['aws', 'gcp', 'php', 'mariadb', 'react', 'prestashop', 'python', 'docker', 'supabase', 'centos']
 id: 'mangayo'
 date: '2020-10-01'
@@ -35,7 +35,7 @@ I conducted initial SEO optimization, which led to MangaYo! ranking 1st on almos
 
 I supported the development and integration of MangaYo!’s native app, which became an incredible success, ranking 5th in the App Store. The app has significantly boosted website leads, generated sales, and increased customer loyalty. This mobile app has been a game-changer for MangaYo!, enhancing user engagement and driving sales.
 
-![Image](/img/collectyo.jpeg)
+![Image](/img/collectyo.webp)
 
 ### Scalability Solutions ⚙️
 

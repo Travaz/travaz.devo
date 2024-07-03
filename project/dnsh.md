@@ -2,7 +2,7 @@
 title: DNSH
 description: Developed a platform to streamline the certification process for companies to comply with DNSH (Do Not Significantly Harm) guidelines.
 tags: []
-image: /img/dnsh.jpg
+image: /img/dnsh.webp
 techs: [java, react, gcp]
 id: 'dnsh' # must concide with file name
 aside: false

@@ -2,7 +2,7 @@
 title: Cassandra Analysis (unimib)
 description: Conducted a thorough analysis and benchmarking of Apache Cassandra, comparing its performance with other database technologies.
 tags: [NoSQL, Benchmarking, Database Systems]
-image: /img/cassandra.png
+image: /img/cassandra.webp
 techs: [java, cassandra]
 id: 'cassandra-study'
 aside: false

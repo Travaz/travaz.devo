@@ -2,7 +2,7 @@
 title: LMC (unimib)
 description: A university project implementing a Little Man Computer simulator using Prolog. 
 tags: []
-image: /img/lmc.jpeg
+image: /img/lmc.webp
 techs: [prolog]
 id: 'lmc' # must concide with file name
 aside: false

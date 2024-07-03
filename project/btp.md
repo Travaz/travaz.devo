@@ -2,7 +2,7 @@
 title: Investire In BTP
 description: A free tool for investors, offering detailed information, analysis, and real-time updates on Italian government bonds (BTPs).
 tags: []
-image: /logo/btp.png
+image: /logo/btp.webp
 techs: [nextjs, supabase, gcp, python]
 id: 'btp' # must concide with file name
 aside: false

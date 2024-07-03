@@ -6,7 +6,7 @@
     title="MSc in Computer Science"
     company="Università della Svizzera Italiana (USI) 🇨🇭"
     companyUrl="https://www.usi.ch"
-    companyLogo="logo/usi.jpg"
+    companyLogo="logo/usi.webp"
     from="2021-09"
     to="2022-07"
     detailedPage='education/usi'
@@ -28,7 +28,7 @@
     title="MSc in Computer Science"
     company="Università di Milano Bicocca (unimib) 🇮🇹"
     companyUrl="https://www.unimib.it/"
-    companyLogo="logo/unimib.png"
+    companyLogo="logo/unimib.webp"
     from="2020-10"
     to="2022-07"
     detailedPage='/education/msc-unimib'
@@ -49,7 +49,7 @@
     title="BSc in Computer Science"
     company="Università di Milano Bicocca (unimib) 🇮🇹"
     companyUrl="https://www.unimib.it/"
-    companyLogo="logo/unimib.png"
+    companyLogo="logo/unimib.webp"
     from="2017-09"
     to="2020-10"
     detailedPage='/education/bsc-unimib'

@@ -6,7 +6,7 @@
     title="Software Engineer"
     company="Renuo AG"
     companyUrl="https://www.renuo.ch"
-    companyLogo="logo/renuo.jpeg"
+    companyLogo="logo/renuo.webp"
     from="2022-09"
     to="now"
     detailedPage='experience/renuo'
@@ -17,7 +17,7 @@
     title="Partner & CTO"
     company="MangaYo!"
     companyUrl="https://mangayo.it"
-    companyLogo="logo/mangayo.jpeg"
+    companyLogo="logo/mangayo.webp"
     detailedPage='project/mangayo'
     from="2020-10"
     to="now"
@@ -28,7 +28,7 @@
     title="Frontend Developer"
     company="Arcan"
     companyUrl="https://www.arcan.tech/"
-    companyLogo="logo/arcan.jpeg"
+    companyLogo="logo/arcan.webp"
     detailedPage='project/arcan'
     from="2020-10"
     to="2022-07"

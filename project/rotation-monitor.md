@@ -2,7 +2,7 @@
 title: Rotation Monitor
 description: Not sure about the right display orientation? Adjust them based on your needs!
 tags: []
-image: /img/rotation-monitor.png
+image: /img/rotation-monitor.webp
 techs: [csh]
 id: 'rotation-monitor' # must concide with file name
 aside: false
@@ -24,4 +24,4 @@ The journey was quite intresting! I Used an Arduino UNO equipped with a gyroscop
 
 This project was a fantastic way to merge my interests in hardware and software, and it was incredibly satisfying to see it come to life!
 
-![Demo](/img/rotation-monitor.gif)
+![Demo](/img/rotation-monitor-demo.gif)

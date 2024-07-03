@@ -2,7 +2,7 @@
 title: SmartHome (unimib)
 description: Customizable MQTT-Based Smart Controller for Home Automation.
 tags: []
-image: /img/smart-home.png
+image: /img/smart-home.webp
 techs: [java, MQTT, electron]
 id: 'smarthome' # must concide with file name
 github: https://github.com/Gianlo98/Smart-Home

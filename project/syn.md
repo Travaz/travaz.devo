@@ -22,7 +22,7 @@ A fun fact discovered while working on this project: have you ever seen the [fir
 
 Through SYN, I implemented an interactive visual and auditory depiction of software artifacts' evolution. The most significant achievement was successfully analyzing the Linux repository, which includes over one million commits and more than 100,000 evolving files. This accomplishment not only showcased SYN’s capabilities but also underscored the potential for innovative approaches to software evolution comprehension.
 
-![Linux Repository Representation](/img/syn-linux.png)
+![Linux Repository Representation](/img/syn-linux.webp)
 
 ### Project Highlights
 
@@ -39,7 +39,7 @@ One of the main challenges was the parallel analysis of large repositories. Each
 - 🎓 **Academic Excellence**: Thanks to this project, I received the highest possible grade at my Italian university, **110L/110L**. This grade reflects the quality and significance of the work completed.
 
 
-![Me Winning the Best Presentation Prize](/img/syn-award.jpg)
+![Me Winning the Best Presentation Prize](/img/syn-award.webp)
 
 ## 
 📹 **Demo**:
