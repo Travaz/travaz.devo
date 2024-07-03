@@ -14,7 +14,7 @@ const { frontmatter } = useData()
           <Icon name="github" :tooltip="false" />
         </a>
         </h1>
-        <img v-if="frontmatter.image" :src="frontmatter.image" alt="" class="DocHeader-image" />
+        <img v-if="frontmatter.image" :src="frontmatter.image" alt="" class="DocHeader-image" loading="lazy" />
     </div>
 </template>
 
