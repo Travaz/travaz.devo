@@ -4,7 +4,7 @@
 <div class="project-container">
   <project-card
     date="2020-10"
-    image-src="logo/mangayo.png"
+    image-src="logo/mangayo.webp"
     detailedPage="project/mangayo"
     title="MangaYo!"
     description="An innovative e-commerce platform for manga, figue and card games, offering a seamless and scalable shopping experience."
@@ -22,7 +22,7 @@
 
   <project-card
     date="2024-01"
-    image-src="logo/btp.png"
+    image-src="logo/btp.webp"
     title="Investire in BTP"
     detailedPage="project/btp"
     description="A free tool for investors, offering detailed information, analysis, and real-time updates on Italian government bonds (BTPs)."
