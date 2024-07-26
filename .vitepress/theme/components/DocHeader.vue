@@ -8,7 +8,14 @@ const { frontmatter } = useData()
 
 <template>
     <div class="DocHeader" v-if="frontmatter.title">
-        <span>{{ formattedDate(frontmatter.date) }} - {{ formattedDate(frontmatter.end) }} ({{ formattedDuration(frontmatter.date, frontmatter.end) }})</span>
+        <div v-if="frontmatter.date">
+            <span>
+                {{ formattedDate(frontmatter.date) }}
+                <template v-if="frontmatter.end">
+                - {{ formattedDate(frontmatter.end) }} ({{ formattedDuration(frontmatter.date, frontmatter.end) }})
+                </template>
+            </span>
+        </div>
         <h1 class="DocHeader-title">{{ frontmatter.title }}
         <a v-if="frontmatter.github" :href="frontmatter.github" aria-label="github" target="_blank" rel="noopener">
           <Icon name="github" :tooltip="false" />
