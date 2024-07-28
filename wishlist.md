@@ -1,12 +1,13 @@
 ---
-title: ✨ Wishlist ✨
-description: fff
+title: ✨Wishlist✨
+titleTemplate: Portfolio
+
 lastUpdated: true
 layout: doc
-aside: true
+aside: false
 ---
 
-### Libri
+### Books
 
 - [The Great Mental Models, Volume 1: General Thinking Concepts](https://www.amazon.it/dp/0593719972)
 - [The Great Mental Models, Volume 2: Physics, Chemistry, and Biology ](https://www.amazon.it/Great-Mental-Models-Physics-Chemistry/dp/0593719980)
@@ -28,3 +29,4 @@ aside: true
 - [Rich Dad Poor Dad](https://www.amazon.it/gp/product/1612681131)
 - [Early Retirement Extreme](https://www.amazon.it/gp/product/145360121X)
 - [Principles](https://www.amazon.it/gp/product/1501124021)
+- [Forecasting: Principles and Practice](https://www.amazon.it/Forecasting-principles-practice-Rob-Hyndman/dp/0987507117)
