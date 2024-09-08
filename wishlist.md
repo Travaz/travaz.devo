@@ -28,5 +28,5 @@ aside: false
 - [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.it/gp/product/1492032646)
 - [Rich Dad Poor Dad](https://www.amazon.it/gp/product/1612681131)
 - [Early Retirement Extreme](https://www.amazon.it/gp/product/145360121X)
-- [Principles](https://www.amazon.it/gp/product/1501124021)
+- ~~[Principles](https://www.amazon.it/gp/product/1501124021)~~
 - [Forecasting: Principles and Practice](https://www.amazon.it/Forecasting-principles-practice-Rob-Hyndman/dp/0987507117)
