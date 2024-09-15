@@ -36,6 +36,7 @@ aside: false
 - [Flipper Zero](https://www.joom.com/geek/en/products/62f661838ed09b01ebd4e0e2?variant_id=62f661838ed09b43ebd4e0e4)
 - [Philips Hue Signe 145cm](https://www.digitec.ch/en/s1/product/philips-hue-gradient-signe-2550-lm-floor-lamps-16467477)
 - [Philips Hue Signe 55cm](https://www.digitec.ch/en/s1/product/philips-hue-gradient-signe-1040-lm-table-lamps-16467476)
+- [Apple Watch Milanese Bracelet – M](https://www.apple.com/ch-de/shop/product/MXKD3ZM/A/49-mm-milanaise-armband-titan-natur-m)
 - [Withings Body Smart](https://www.digitec.ch/en/s1/product/withings-body-smart-200-kg-bathroom-scales-35722783)
 - [Muse 2](https://www.amazon.it/MUSE-2-Brain-Sensing-Headband/dp/B07HL2S9JQ)
 - [Attacco Pasta](https://www.galaxus.ch/it/s2/product/kenwood-attacco-per-pasta-kax982me-tagliolini-accessori-per-utensili-da-cucina-4658100)
