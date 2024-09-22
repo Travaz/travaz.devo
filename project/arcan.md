@@ -24,5 +24,5 @@ The new UI significantly expanded the tool's capabilities, aiding in its accepta
 
 I won't easily forget this experience: fun, hard, and rewarding all at once! What a fantastic combo! 😆 
 
-I'll always be cheering for them as they continue to innovate and grow ❤️.... Curious to see what they're up to? Check them out on their [LinkedIn page](https://www.linkedin.com/company/arcan).
+I'll always be cheering for them as they continue to innovate and grow ❤️.... Curious to see what they're up to? Check them out on their [LinkedIn page](https://www.linkedin.com/company/arcan-tech).
 
