@@ -9,6 +9,7 @@ import Button from "./components/Button.vue";
 import TimelineCard from "./components/TimelineCard.vue";
 import "vitepress-markdown-timeline/dist/theme/index.css";
 import Layout from "./Layout.vue";
+import podcastPlayer from "./loader/podcastPlayer";
 
 export default {
   extends: DefaultTheme,
@@ -20,5 +21,6 @@ export default {
     app.component('TreeItem', TreeItem)
     app.component('Button', Button)
     app.component('TimelineCard', TimelineCard)
+    podcastPlayer()
   }
 } satisfies Theme

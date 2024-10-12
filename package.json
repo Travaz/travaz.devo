@@ -16,6 +16,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "canvas-confetti": "^1.9.3",
     "vitepress-markdown-timeline": "^1.2.1",
     "vitepress-sidebar": "^1.23.2"
   }
