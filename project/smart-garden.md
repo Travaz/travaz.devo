@@ -47,4 +47,4 @@ One of the most satisfying aspects was implementing the decentralized control me
 
 ![Smart Garden IoT Board](/img/smartgarden-board.webp)
 
-[Link to the report (PDF)](/doc/unimib-smartgarden.pdf)
+[Link to the report (PDF)](https://github.com/Gianlo98/press-portfolio/blob/main/public/doc/unimib-smartgarden.pdf)

@@ -45,8 +45,8 @@ One of the main challenges was the parallel analysis of large repositories. Each
 📹 **Demo**:
 <iframe src="https://www.youtube.com/embed/YXytmPp48_E" title="SYN // Tool Demo @ ICPC 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-📄 **Thesis**: [Link to Thesis](/doc/syn-thesis.pdf).
+📄 **Thesis**: [Link to Thesis](https://github.com/Gianlo98/press-portfolio/blob/main/public/doc/syn-thesis.pdf).
 
-📊 **Presentation**: [Link to Presentation](/doc/syn-presentation.pdf).
+📊 **Presentation**: [Link to Presentation](https://github.com/Gianlo98/press-portfolio/blob/main/public/doc/syn-presentation.pdf).
 
 🌐 **Website**: [SYN Project](https://syn.si.usi.ch/web/index.html).

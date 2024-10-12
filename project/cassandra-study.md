@@ -40,4 +40,4 @@ This project was a fascinating exploration into the world of NoSQL databases. I 
 
 Our dedication and curiosity to push the boundaries paid off. We went the extra mile by running extensive Cassandra clusters to benchmark its performance comprehensively. The teacher was highly impressed with our work, and we received the highest grade for our excellence. This recognition was a testament to our hard work and passion for exploring new technologies. **Achieving top grades and making the teacher proud was a great recognition of our efforts!** 😎
 
-[Link to the report (Italian)](/doc/unimib-cassandra.pdf)
+[Link to the report (Italian)](https://github.com/Gianlo98/press-portfolio/blob/main/public/doc/unimib-cassandra.pdf)

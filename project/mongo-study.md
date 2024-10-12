@@ -29,4 +29,4 @@ Performance-wise, PostgreSQL outperformed MongoDB in ACID transactions, but Mong
 ### ❤️  Why I Loved This Project
 This project was an incredible learning experience. It helped me develop a deep understanding of MongoDB, and I thoroughly enjoyed the process of comparing it with PostgreSQL. The additional benchmarks I conducted out of pure curiosity gave me valuable insights into database performance and scalability. **Achieving the highest grade was the cherry on top!** 😎
 
-[Link to the report (Italian)](/doc/unimib-mongo.pdf)
+[Link to the report (Italian)](https://github.com/Gianlo98/press-portfolio/blob/main/public/doc/unimib-mongo.pdf)
