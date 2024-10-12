@@ -34,7 +34,7 @@ const hasTriggeredConfetti = ref(false)
 const isPermanentlyHidden = ref(false)
 
 const audioList = computed(() => [{
-    file: '/audio/audio.wav',
+    file: '/audio/audio.mp3',
 }])
 
 const isPlay = computed(() => playInfo.value.status === PlayStatus.play)
@@ -49,6 +49,22 @@ const confettiCanvas: Ref<HTMLCanvasElement | null> = ref(null)
 
 const isMobile = computed(() => window.innerWidth <= 600)
 
+const triggerConfetti = () => {
+    if (confettiCanvas.value) {
+        const confettiSettings = { particleCount: 100, spread: 70, origin: { x: 0.5, y: 1 }, startVelocity: 30 }
+        const canvas = confetti.create(confettiCanvas.value, { resize: true })
+        canvas(confettiSettings)
+    }
+}
+
+const playAudio = () => {
+    if (audioRef.value) {
+        playInfo.value.status = PlayStatus.play
+        audioRef.value.play()
+    }
+}
+
+
 const toggleMinimize = () => {
     isMinimized.value = !isMinimized.value
     if (!isMinimized.value && !hasTriggeredConfetti.value) {
@@ -60,18 +76,15 @@ const toggleMinimize = () => {
     }
 }
 
-const playAudio = () => {
-    if (audioRef.value) {
-        playInfo.value.status = PlayStatus.play
-        audioRef.value.play()
-    }
-}
-
-const triggerConfetti = () => {
-    if (confettiCanvas.value) {
-        const confettiSettings = { particleCount: 100, spread: 70, origin: { x: 0.5, y: 1 }, startVelocity: 30 }
-        const canvas = confetti.create(confettiCanvas.value, { resize: true })
-        canvas(confettiSettings)
+const stopAudio = () => {
+    try {
+        if (audioRef.value) {
+            playInfo.value.status = PlayStatus.stop
+            audioRef.value.pause()
+            audioRef.value.currentTime = 0
+        }
+    } catch (error) {
+        console.error("Error during audio stop operation:", error)
     }
 }
 
@@ -85,18 +98,6 @@ const handleHide = () => {
         }
     } catch (error) {
         console.error("Error during hide operation:", error)
-    }
-}
-
-const stopAudio = () => {
-    try {
-        if (audioRef.value) {
-            playInfo.value.status = PlayStatus.stop
-            audioRef.value.pause()
-            audioRef.value.currentTime = 0
-        }
-    } catch (error) {
-        console.error("Error during audio stop operation:", error)
     }
 }
 
@@ -131,7 +132,7 @@ watch(() => playInfo.value.status, (value) => {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: rgba(255, 255, 255, 0.8);
+    background: var(--vp-c-bg-soft);
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
@@ -199,7 +200,6 @@ watch(() => playInfo.value.status, (value) => {
         flex-direction: row;
         justify-content: space-between;
         padding: 10px 15px;
-        background: rgba(255, 255, 255, 1);
         box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
     }
 
