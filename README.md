@@ -2,7 +2,7 @@
 
 Press Portfolio is a VitePress-based website for showcasing professional projects and personal achievements. It provides a customizable, modern interface for presenting work in a clean and elegant format.
 
-🔗 **Live Demo**: [occhipinti.dev](https://occhipinti.dev)
+🔗 **Live Demo**: [travaz.dev](https://travaz.dev)
 
 ## Features ✨
 
