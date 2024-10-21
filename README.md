@@ -28,12 +28,12 @@ Make sure you have one of the following environments installed:
 
 1. Clone the repository:
 ```bash
-   git clone https://github.com/Gianlo98/press-portfolio.git
+   git clone https://github.com/Travaz/travaz.dev.pub.git
    ```
 2. Navigate to the project directory:
 
 ```bash
-cd press-portfolio
+cd travaz.dev.pub
 ```
 3. Install the dependencies using Node.js:
 
@@ -47,13 +47,13 @@ If you're using Bun, the process is even faster:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/Gianlo98/press-portfolio.git
+git clone https://github.com/Travaz/travaz.dev.pub.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd press-portfolio
+cd travaz.dev.pub
 ```
 
 

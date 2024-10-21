@@ -25,9 +25,6 @@ features:
   - title: 🎯 My Skills
     details: On a daily basis, I have the chance to dive into Full Stack Development 🖥️, ensuring that business logic is properly handled and the user experience feels great for our clients. Through my journey, I've had the pleasure of developing and maintaining customer interactions 🤝, which has pushed me out of my comfort zone and allowed me to develop relational skills—whether it's presenting, conducting demos, or understanding client needs. <br><br> I'm proficient in Full Stack Development 🌐 (with a special love for frontend development) and have recently developed an interest in Artificial Intelligence applications 🤖.
 
-  - title: 🌟 Interests
-    details: When I'm not coding, I enjoy engaging in team-based games and playing chess ♟️. I'm also passionate about finance 📈 and love exploring market trends. Food is a big passion of mine, with pizza 🍕 being my absolute favorite! <br><br> Whether it's new technology, games, or culinary delights, I bring enthusiasm 🤩 to everything I do.
-
 ---
 
 <style>
