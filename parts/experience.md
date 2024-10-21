@@ -3,47 +3,25 @@
 
 <div class="experience-container">
 <Experience
-    title="Software Engineer"
-    company="Renuo AG"
-    companyUrl="https://www.renuo.ch"
-    companyLogo="logo/renuo.webp"
-    from="2022-09"
+    title="IT Consultant"
+    company="AnswerConsulting SA"
+    companyUrl="https://www.answerconsulting.ch"
+    companyLogo="logo/ac.png"
+    from="2023-09"
     to="now"
-    detailedPage='experience/renuo'
-    :icons="['aws', 'gcp', 'java', 'mysql', 'k8s', 'python', 'docker', 'nginx', 'elasticsearch', 'spring', 'redis', 'rails']"
+    :icons="['groovy', 'web', 'js', 'sql', 'opentext', 'modulesuite', 'docker']"
     />
 
 <Experience
-    title="Partner & CTO"
-    company="MangaYo!"
-    companyUrl="https://mangayo.it"
-    companyLogo="logo/mangayo.webp"
-    detailedPage='project/mangayo'
-    from="2020-10"
-    to="now"
-    :icons="['aws', 'gcp', 'php', 'mariadb', 'react', 'prestashop', 'python', 'docker', 'supabase', 'centos']"
+    title="Internship - Stress Exposure Methodology"
+    company="UBS"
+    companyUrl="https://ubs.ch"
+    companyLogo="logo/ubs.png"
+    from="2020-07"
+    to="2021-09"
+    :icons="['python', 'analytics', 'visualization', 'machine-learning']"
     />
 
-<Experience
-    title="Frontend Developer"
-    company="Arcan"
-    companyUrl="https://www.arcan.tech/"
-    companyLogo="logo/arcan.webp"
-    detailedPage='project/arcan'
-    from="2020-10"
-    to="2022-07"
-    :icons="['react', 'cytoscape', 'mui', 'd3', 'plotly', 'graphql']"
-    />
-
-<Experience
-    title="Full Stack Developer"
-    company="Dakimba"
-    detailedPage='project/dakimba'
-    from="2019-10"
-    to="2020-12"
-    :icons="['react', 'mui', 'ubuntu', 'proxmox', 'rpi', 'c']"
-    />
-
-<Button destinationUrl="project/"> See all → </Button>
+<!-- <Button destinationUrl="project/"> See all → </Button> -->
 
 </div>

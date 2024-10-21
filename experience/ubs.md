@@ -1,0 +1,3 @@
+# UBS
+
+I was approached by MangaYo! to create an e-commerce website for their business using Prestashop as a CMS. The project took four months from conception to launch, and the website now handles 5K+ monthly orders. We effectively addressed scalability challenges arising from high traffic, enabling MangaYo! to adapt their services seamlessly without any downtime. I am their project manager for a new custom platform, overseeing its ongoing success and growth.
