@@ -30,14 +30,14 @@ export default defineConfig({
         sortMenusOrderByDescending: true,
         excludeFiles: ['ehm.md', 'learnai.md', 'shortg.md', 'example.md', 'visual-analytics.md'],
       },
-      {
-        documentRootPath: '',
-        scanStartPath: 'education',
-        resolvePath: '/education/',
-        useTitleFromFrontmatter: true,
-        sortMenusByFrontmatterDate: true,
-        sortMenusOrderByDescending: true,
-      }
+      // {
+      //   documentRootPath: '',
+      //   scanStartPath: 'education',
+      //   resolvePath: '/education/',
+      //   useTitleFromFrontmatter: true,
+      //   sortMenusByFrontmatterDate: true,
+      //   sortMenusOrderByDescending: true,
+      // }
     ]),
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Travaz' },

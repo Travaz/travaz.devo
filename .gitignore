@@ -177,3 +177,8 @@ dist
 .vitepress/cache
 
 rag
+
+.vscode
+
+# remove bun related files
+bun.lockb
