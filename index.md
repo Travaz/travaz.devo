@@ -1,62 +1,75 @@
 ---
 layout: home
 
-title: 👋 Hey, I'm Gianlorenzo 🍕! 
+title: 👋 Hey, I'm Daniel 🧑🏻‍💻! 
 titleTemplate: Portfolio
 
 hero:
-  name: <span id="greetings">Hey!</span> 👋 I'm
-  text: <span id="myname">Gianlorenzo Occhipinti </span>
+  name: "<span id=\"greetings\">Hey!</span> 👋 I'm"
+  text: "<span id=\"myname\">Daniel Travaglia</span>"
   actions:
     - theme: alt
       text: 👨‍💻 Solftware Engineer
     - theme: alt
-      text: ☁️ Cloud Services
+      text: 🏔️🎾🏃🏻 Sport Enthusiast
     - theme: alt
-      text: 🧠 ML & AI
+      text: 🎺 Trumpet Player
   image:
-    src: /gianlo.jpeg
-    alt: Gianlorenzo Occhipinti, Pizza Lover
+    src: /dani.jpg
+    alt: Daniel Travaglia
 
 features:
-  - title: 📖 A Bit About Me
-    details: Hey there! My name is Gianlorenzo, but you'll end up calling me Gianlo. I'm a <span id="agePlaceholder">XX</span>-year-old MSc graduate. I am currently working as a Software Engineer at Renuo AG in Zürich 🇨🇭 <br><br> Besides my work, I love working on projects to broaden my vision and serve as the CTO of a startup, driving innovation and technology 🚀🔥
+  - title: 📖 About Me
+    details: Hello there! 👋 I'm Daniel, a <span id="agePlaceholder">26</span>-year-old MSc graduate in Software and Data Engineering from USI 🎓. I work as an IT Consultant at a boutique engineering firm in Mendrisio, Switzerland 🇨🇭. We specialize in helping large organizations optimize their Enterprise Content Management (ECM) workflows. <br><br>Besides work, I'm an avid reader 📚—especially into self-growth and biographies. I love staying updated with the latest trends in my areas of passion 🔍. When the sun is shining, you'll find me hiking 🥾 or swimming in the lake 🏊‍♂️. Winter seasons is all about hitting the slopes for some skiing 🎿.
+    
   - title: 🎯 My Skills
-    details: Proficient in Full Stack Development, DevOps, and Cloud Technologies, with foundational expertise in Artificial Intelligence and Data Visualization 🤖📊 <br><br> My entrepreneurial skills focus on cost-optimizing 💰 every process and pioneering new solutions. 🚀
-  - title: 🍕 Fun Facts
-    details: When I'm not coding, I enjoy team-based games and playing chess ♟️. I'm into finance 📈 and love exploring market trends. Food is a big passion, and of course, pizza 🍕 is my favorite!  <br><br> Whether it's new tech, games, or culinary delights, I bring enthusiasm 🤩 to everything I do.
+    details: On a daily basis, I have the chance to dive into Full Stack Development 🖥️, ensuring that business logic is properly handled and the user experience feels great for our clients. Through my journey, I've had the pleasure of developing and maintaining customer interactions 🤝, which has pushed me out of my comfort zone and allowed me to develop relational skills—whether it's presenting, conducting demos, or understanding client needs. <br><br> I'm proficient in Full Stack Development 🌐 (with a special love for frontend development) and have recently developed an interest in Artificial Intelligence applications 🤖.
 
 ---
 
 <style>
 :root {
   --vp-home-hero-image-background-image: linear-gradient(
-    -45deg, 
-    var(--gradient-second-color) 50%, 
-    var(--gradient-first-color) 50%
-    );
-  --vp-home-hero-image-filter: blur(44px);
-  --vp-home-hero-image-border-radius: 20px;
-  --gradient-first-color: #21d4fd;
-  --gradient-second-color: #b721ff;
+    120deg,
+    rgba(255, 105, 180, 0.8) 30%,   /* Hot Pink */
+    rgba(0, 191, 255, 0.8) 70%,     /* Deep Sky Blue */
+    rgba(50, 205, 50, 0.8) 100%     /* Lime Green */
+  );
+  --vp-home-hero-image-filter: blur(18px);
+  --vp-home-hero-image-border-radius: 35px;
+  --gradient-first-color: #ff69b4;  /* Hot Pink */
+  --gradient-second-color: #00bfff; /* Deep Sky Blue */
+  --gradient-third-color: #32cd32;  /* Lime Green */
 }
 
 #myname {
-  background: linear-gradient(56deg, 
+  background: linear-gradient(45deg, 
       var(--gradient-first-color) 0%, 
-      var(--gradient-second-color) 20%,
-      var(--gradient-first-color) 40%, 
-      rgba(255,255,255,1) 50%, 
-      rgba(255,255,255,1) 100%
+      var(--gradient-second-color) 35%, 
+      var(--gradient-third-color) 65%
     );
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: slideIn 1s ease-in-out;
-  background-size: 400%, 100%;
+  animation: gradientShift 3s ease infinite;
+  background-size: 300% 300%;
   background-position: 0;
-  animation-fill-mode: forwards; 
+  animation-fill-mode: forwards;
 }
+
+/* Gradient shift animation for more dynamic visuals */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 @media (min-width: 640px) {
   :root {
@@ -128,13 +141,13 @@ features:
 <script setup>
   import { onMounted } from 'vue'
 
-  const names = ["Hey!", "Ciao!", "Grüezi!", "Hallo!", "Hola!", "Salut!", "Hej!"];
+  const names = ["Hey!", "Ciao!", "Uella!", "Hallo!", "Hola!", "Salut!"];
   let currentIndex = 0;
   let charIndex = 0;
   let deleting = false;
 
-  const typeSpeed = 100; 
-  const deleteSpeed = 50;
+  const typeSpeed = 150; 
+  const deleteSpeed = 150;
   const delayBetween = 5000;
 
   function typeWriter() {
@@ -168,9 +181,7 @@ features:
   }
 
   function setAge() {
-    // Yes, I am a very lazy person, but that is also my virtue
-
-    const BDAY = "1998-10-14";
+    const BDAY = "1998-07-30";
     const diff = new Date(new Date() - new Date(BDAY))
     const age = diff.getUTCFullYear() - 1970;
     agePlaceholder.textContent = age;
@@ -207,7 +218,5 @@ onMounted(() => {
 </script>
 
 <!--@include: ./parts/experience.md-->
-<!--@include: ./parts/highlighted_projects.md-->
-<!--@include: ./parts/education.md-->
-
-
+<!-- @include: ./parts/highlighted_projects.md -->
+<!-- @include: ./parts/education.md -->
