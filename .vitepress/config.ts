@@ -28,7 +28,7 @@ export default defineConfig({
         useTitleFromFrontmatter: true,
         sortMenusByFrontmatterDate: true,
         sortMenusOrderByDescending: true,
-        excludeFiles: ['ehm.md', 'learnai.md', 'shortg.md', 'example.md', 'visual-analytics.md'],
+        excludeFiles: ['ehm.md', 'learnai.md', 'shortg.md', 'example.md'],
       },
       // {
       //   documentRootPath: '',
