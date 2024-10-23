@@ -3,7 +3,7 @@
 
 <div class="experience-container">
   <Experience
-    title="MSc in Software \& Data Engineering"
+    title="MSc in Software and Data Engineering"
     company="Università della Svizzera Italiana (USI) 🇨🇭"
     companyUrl="https://www.usi.ch"
     companyLogo="logo/usi.webp"
@@ -20,7 +20,7 @@
     ]"
   />
   <Experience
-    title="BSc in Economics, Management \& Computer Science"
+    title="BSc in Economics, Management and Computer Science"
     company="Bocconi University 🇮🇹"
     companyUrl="https://www.unibocconi.it/it"
     companyLogo="logo/unibocconi.png"
